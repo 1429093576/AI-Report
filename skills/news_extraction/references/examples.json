@@ -1,0 +1,140 @@
+[
+  {
+    "input": {
+      "id": "raw-001",
+      "title": "OpenAI expands Codex availability beyond the ChatGPT sidebar",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/work-with-codex-from-anywhere/",
+      "published_at": "2026-05-14T09:00:00Z",
+      "source_type": "blog",
+      "language": "en",
+      "summary": "OpenAI described new ways for developers to work with Codex from more places in their workflow.",
+      "content": "OpenAI said Codex can support software development tasks across more surfaces, pointing to a broader agent workflow for developers and teams.",
+      "metadata": {},
+      "content_hash": "37642e4b26e1e3b5e321aebc5792295c9396c70a876c36d6c556de7339b82c52"
+    },
+    "output": {
+      "id": "structured-001",
+      "title": "OpenAI expands Codex availability beyond the ChatGPT sidebar",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/work-with-codex-from-anywhere/",
+      "published_at": "2026-05-14T09:00:00Z",
+      "source_type": "blog",
+      "language": "en",
+      "topic": "AI Agents",
+      "entities": ["OpenAI", "Codex"],
+      "event_type": "product_launch",
+      "summary": "OpenAI described new ways for developers to use Codex across more workflow surfaces.",
+      "key_points": [
+        "Codex availability expands beyond the ChatGPT sidebar.",
+        "The update targets software development workflows.",
+        "The event signals broader developer-facing agent adoption."
+      ],
+      "sentiment": "positive",
+      "impact_scope": "technology",
+      "importance_score": 74,
+      "importance_rationale": "Codex 扩展到更多开发工作流表面，提升开发者智能体采用关注度。",
+      "risk_level": "low",
+      "risk_rationale": "材料未显示安全、合规或交付方面的突出风险。",
+      "opportunity_level": "high",
+      "opportunity_rationale": "开发者工作流扩展强化了编码智能体的采用机会。",
+      "evidence": [
+        "OpenAI described new ways for developers to work with Codex from more places in their workflow.",
+        "OpenAI said Codex can support software development tasks across more surfaces"
+      ],
+      "content_hash": "37642e4b26e1e3b5e321aebc5792295c9396c70a876c36d6c556de7339b82c52"
+    }
+  },
+  {
+    "input": {
+      "id": "raw-002",
+      "title": "OpenAI and Dell Technologies partner to bring Codex to enterprise environments",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/dell-codex-enterprise-partnership/",
+      "published_at": "2026-05-18T09:00:00Z",
+      "source_type": "blog",
+      "language": "en",
+      "summary": "OpenAI and Dell announced a partnership aimed at bringing Codex into hybrid and on-premises enterprise environments.",
+      "content": "The partnership signals enterprise demand for coding agents, secure deployment options, and AI tooling that can operate closer to regulated customer infrastructure.",
+      "metadata": {},
+      "content_hash": "20b9953e4f4359a7275637bce62d80f56bdcd1854e378502ff3ddc458c990f02"
+    },
+    "output": {
+      "id": "structured-002",
+      "title": "OpenAI and Dell Technologies partner to bring Codex to enterprise environments",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/dell-codex-enterprise-partnership/",
+      "published_at": "2026-05-18T09:00:00Z",
+      "source_type": "blog",
+      "language": "en",
+      "topic": "AI Agents",
+      "entities": ["OpenAI", "Dell Technologies", "Codex"],
+      "event_type": "partnership",
+      "summary": "OpenAI and Dell announced a partnership to bring Codex into hybrid and on-premises enterprise environments.",
+      "key_points": [
+        "The partnership targets enterprise environments.",
+        "The deployment context includes hybrid and on-premises infrastructure.",
+        "The item points to demand for secure coding-agent deployment."
+      ],
+      "sentiment": "positive",
+      "impact_scope": "industry",
+      "importance_score": 82,
+      "importance_rationale": "OpenAI 与 Dell 合作面向混合和本地企业环境，产业部署影响明确。",
+      "risk_level": "low",
+      "risk_rationale": "材料提到安全部署需求，但未显示已发生的严重风险事件。",
+      "opportunity_level": "high",
+      "opportunity_rationale": "企业环境部署信号强化了编码智能体商业化机会。",
+      "evidence": [
+        "OpenAI and Dell announced a partnership aimed at bringing Codex into hybrid and on-premises enterprise environments.",
+        "The partnership signals enterprise demand for coding agents"
+      ],
+      "content_hash": "20b9953e4f4359a7275637bce62d80f56bdcd1854e378502ff3ddc458c990f02"
+    }
+  },
+  {
+    "input": {
+      "id": "raw-003",
+      "title": "Google I/O 2026 highlights new AI developer tools and Gemini updates",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+      "published_at": "2026-05-19T17:00:00Z",
+      "source_type": "blog",
+      "language": "en",
+      "summary": "Google collected its I/O 2026 announcements around AI models, developer tools, and product integrations.",
+      "content": "The Google I/O collection emphasized Gemini updates, developer tooling, and product features that put AI into more workflows across search, productivity, and software building.",
+      "metadata": {},
+      "content_hash": "8cbf89a1e34ea862298c024eadd183a34f0cd399ceb416b3cc469b328f8a4446"
+    },
+    "output": {
+      "id": "structured-003",
+      "title": "Google I/O 2026 highlights new AI developer tools and Gemini updates",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+      "published_at": "2026-05-19T17:00:00Z",
+      "source_type": "blog",
+      "language": "en",
+      "topic": "Foundation Models",
+      "entities": ["Google", "Gemini"],
+      "event_type": "model_release",
+      "summary": "Google collected its I/O 2026 AI announcements around Gemini updates, developer tools, and product integrations.",
+      "key_points": [
+        "Gemini updates were part of the I/O announcements.",
+        "The announcements included developer tooling.",
+        "Google tied the updates to search, productivity, and software-building workflows."
+      ],
+      "sentiment": "positive",
+      "impact_scope": "technology",
+      "importance_score": 88,
+      "importance_rationale": "Google I/O 集中发布 Gemini 与开发者工具更新，影响模型和开发生态。",
+      "risk_level": "low",
+      "risk_rationale": "材料未显示安全、合规或交付方面的突出风险。",
+      "opportunity_level": "high",
+      "opportunity_rationale": "Gemini 更新和开发者工具扩展带来产品集成与开发生态机会。",
+      "evidence": [
+        "Google collected its I/O 2026 announcements around AI models, developer tools, and product integrations.",
+        "The Google I/O collection emphasized Gemini updates"
+      ],
+      "content_hash": "8cbf89a1e34ea862298c024eadd183a34f0cd399ceb416b3cc469b328f8a4446"
+    }
+  }
+]

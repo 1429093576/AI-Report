@@ -1,0 +1,130 @@
+[
+  {
+    "input": {
+      "title": "OpenAI launches new coding agent for enterprise developers",
+      "summary": "OpenAI introduced a coding agent product for developer workflows.",
+      "content": "The launch focuses on agent workflows, enterprise developers, and API integration."
+    },
+    "output": {
+      "is_ai_related": true,
+      "relevance_score": 92,
+      "relevance_reason": "The item is directly about an AI agent product launch for developer workflows.",
+      "relevance_evidence": [
+        "OpenAI launches new coding agent for enterprise developers",
+        "The launch focuses on agent workflows, enterprise developers, and API integration."
+      ]
+    }
+  },
+  {
+    "input": {
+      "title": "Valve raises Steam Deck prices by more than $200",
+      "summary": "The handheld gaming device now costs much more.",
+      "content": "The article briefly mentions that chipmakers are chasing AI servers, but the story is about gaming hardware prices."
+    },
+    "output": {
+      "is_ai_related": false,
+      "relevance_score": 28,
+      "relevance_reason": "The main event is gaming hardware pricing, not AI technology or AI industry news.",
+      "relevance_evidence": [
+        "Valve raises Steam Deck prices by more than $200",
+        "The story is about gaming hardware prices."
+      ]
+    }
+  },
+  {
+    "input": {
+      "title": "vLLM releases faster inference scheduler for LLM serving",
+      "summary": "The release improves throughput for large language model inference.",
+      "content": "The update targets model serving, batching, KV cache use, and GPU utilization for production LLM deployments."
+    },
+    "output": {
+      "is_ai_related": true,
+      "relevance_score": 90,
+      "relevance_reason": "The item is directly about AI infrastructure for LLM inference and model serving.",
+      "relevance_evidence": [
+        "vLLM releases faster inference scheduler for LLM serving",
+        "The update targets model serving, batching, KV cache use, and GPU utilization for production LLM deployments."
+      ]
+    }
+  },
+  {
+    "input": {
+      "title": "Cloud provider opens new enterprise data center region",
+      "summary": "The company expanded cloud capacity for enterprise customers.",
+      "content": "The announcement mentions AI demand in one paragraph, but the main event is a general cloud region for storage, databases, and application hosting."
+    },
+    "output": {
+      "is_ai_related": false,
+      "relevance_score": 45,
+      "relevance_reason": "The item is general cloud infrastructure news and does not show a concrete AI training, inference, or model-serving workload.",
+      "relevance_evidence": [
+        "Cloud provider opens new enterprise data center region",
+        "The main event is a general cloud region for storage, databases, and application hosting."
+      ]
+    }
+  },
+  {
+    "input": {
+      "title": "Regulators require labels for AI-generated election videos",
+      "summary": "The rule applies to synthetic media made by generative AI systems.",
+      "content": "The policy targets deepfakes, generated-content labels, and disclosure obligations for AI video tools."
+    },
+    "output": {
+      "is_ai_related": true,
+      "relevance_score": 88,
+      "relevance_reason": "The item is directly about AI governance for generated content and synthetic media.",
+      "relevance_evidence": [
+        "Regulators require labels for AI-generated election videos",
+        "The policy targets deepfakes, generated-content labels, and disclosure obligations for AI video tools."
+      ]
+    }
+  },
+  {
+    "input": {
+      "title": "New privacy bill sets rules for location data brokers",
+      "summary": "The legislation restricts resale of consumer location data.",
+      "content": "Technology companies say the law may affect analytics products; AI is listed as one possible downstream use."
+    },
+    "output": {
+      "is_ai_related": false,
+      "relevance_score": 38,
+      "relevance_reason": "The item is about general privacy regulation and does not clearly target AI systems, models, or generated content.",
+      "relevance_evidence": [
+        "New privacy bill sets rules for location data brokers",
+        "The legislation restricts resale of consumer location data."
+      ]
+    }
+  },
+  {
+    "input": {
+      "title": "Researchers introduce benchmark for multimodal reasoning models",
+      "summary": "The paper evaluates VLM reasoning across charts, documents, and video.",
+      "content": "The benchmark measures model accuracy, hallucination risk, and chain-of-thought robustness for multimodal AI systems."
+    },
+    "output": {
+      "is_ai_related": true,
+      "relevance_score": 86,
+      "relevance_reason": "The item is directly about AI research and evaluation for multimodal reasoning models.",
+      "relevance_evidence": [
+        "Researchers introduce benchmark for multimodal reasoning models",
+        "The benchmark measures model accuracy, hallucination risk, and chain-of-thought robustness for multimodal AI systems."
+      ]
+    }
+  },
+  {
+    "input": {
+      "title": "Phone maker unveils flagship handset with AI camera filters",
+      "summary": "The phone adds automatic image enhancement and a new display.",
+      "content": "The launch is mainly about hardware design, cameras, battery life, and pricing. AI filters are one small feature in the camera app."
+    },
+    "output": {
+      "is_ai_related": false,
+      "relevance_score": 48,
+      "relevance_reason": "The item is a consumer hardware launch where AI is a minor camera feature rather than the main product capability.",
+      "relevance_evidence": [
+        "Phone maker unveils flagship handset with AI camera filters",
+        "AI filters are one small feature in the camera app."
+      ]
+    }
+  }
+]

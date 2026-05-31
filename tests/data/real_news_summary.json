@@ -1,0 +1,287 @@
+{
+  "generated_at": "2026-05-28T09:09:38.984190+00:00",
+  "note": "Collected with remote enabled sources only; local_json fixture source was excluded. Full-content enrichment is enabled and raw collection does not set a content length cap by default.",
+  "enabled_sources": [
+    {
+      "name": "techcrunch_ai",
+      "type": "rss",
+      "source": "TechCrunch",
+      "max_items": 8,
+      "lookback_days": 14,
+      "fetch_full_content": true,
+      "full_content_max_chars": null
+    },
+    {
+      "name": "the_verge_ai",
+      "type": "rss",
+      "source": "The Verge",
+      "max_items": 8,
+      "lookback_days": 14,
+      "fetch_full_content": true,
+      "full_content_max_chars": null
+    },
+    {
+      "name": "arxiv_ai",
+      "type": "arxiv_api",
+      "source": "arXiv",
+      "max_items": 8,
+      "lookback_days": 14,
+      "fetch_full_content": true,
+      "full_content_max_chars": null
+    },
+    {
+      "name": "github_releases_ai_tools",
+      "type": "github_releases",
+      "source": "GitHub Releases",
+      "max_items": 8,
+      "lookback_days": 30,
+      "fetch_full_content": true,
+      "full_content_max_chars": null
+    },
+    {
+      "name": "hackernews_ai",
+      "type": "hackernews_api",
+      "source": "Hacker News",
+      "max_items": 8,
+      "lookback_days": 7,
+      "fetch_full_content": true,
+      "full_content_max_chars": null
+    },
+    {
+      "name": "google_news_ai",
+      "type": "google_news_rss",
+      "source": "Google News",
+      "max_items": 8,
+      "lookback_days": 7,
+      "fetch_full_content": true,
+      "full_content_max_chars": null
+    }
+  ],
+  "raw_count": 40,
+  "cleaned_count": 40,
+  "source_counts": {
+    "TechCrunch": 8,
+    "The Verge": 8,
+    "GitHub Releases": 8,
+    "Hacker News": 8,
+    "Google News": 8
+  },
+  "adapter_counts": {
+    "techcrunch_ai": 8,
+    "the_verge_ai": 8,
+    "github_releases_ai_tools": 8,
+    "hackernews_ai": 8,
+    "google_news_ai": 8
+  },
+  "content_source_counts": {
+    "article_html": 24,
+    "github_release_body": 8,
+    "rss_feed": 8
+  },
+  "content_length_stats": {
+    "min": 41,
+    "max": 25610,
+    "average": 4661.7,
+    "items_over_1000_chars": 29,
+    "truncated_items": 0
+  },
+  "source_errors": [
+    {
+      "source": "arxiv_ai",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20.0)"
+    }
+  ],
+  "sample_titles": [
+    {
+      "title": "Vertu wants CEOs to run companies from an AI foldable starting at $6,880",
+      "source": "TechCrunch",
+      "published_at": "2026-05-28T07:00:00+00:00",
+      "url": "https://techcrunch.com/2026/05/28/vertu-wants-ceos-to-run-companies-from-an-ai-foldable-starting-at-6880/",
+      "content_chars": 6228,
+      "content_source": "article_html",
+      "content_truncated": false,
+      "full_content_error": null
+    },
+    {
+      "title": "Google engineer charged with insider trading after making $1.2M on Polymarket",
+      "source": "TechCrunch",
+      "published_at": "2026-05-28T00:45:37+00:00",
+      "url": "https://techcrunch.com/2026/05/27/google-engineer-charged-with-insider-trading-after-making-1-2m-on-polymarket/",
+      "content_chars": 3690,
+      "content_source": "article_html",
+      "content_truncated": false,
+      "full_content_error": null
+    },
+    {
+      "title": "Why Google’s AI can’t spell Google (or anything else)",
+      "source": "TechCrunch",
+      "published_at": "2026-05-28T00:17:41+00:00",
+      "url": "https://techcrunch.com/2026/05/27/why-googles-ai-cant-spell-google-or-anything-else/",
+      "content_chars": 5129,
+      "content_source": "article_html",
+      "content_truncated": false,
+      "full_content_error": null
+    },
+    {
+      "title": "Rivian will deliver the first R2 SUVs on June 9",
+      "source": "TechCrunch",
+      "published_at": "2026-05-27T21:15:04+00:00",
+      "url": "https://techcrunch.com/2026/05/27/rivian-will-deliver-the-first-r2-suvs-on-june-9/",
+      "content_chars": 1749,
+      "content_source": "article_html",
+      "content_truncated": false,
+      "full_content_error": null
+    },
+    {
+      "title": "Triomics nabs $22M to bring oncology-specific AI to cancer centers",
+      "source": "TechCrunch",
+      "published_at": "2026-05-27T21:11:15+00:00",
+      "url": "https://techcrunch.com/2026/05/27/triomics-nabs-22m-to-bring-oncology-specific-ai-to-cancer-centers/",
+      "content_chars": 3467,
+      "content_source": "article_html",
+      "content_truncated": false,
+      "full_content_error": null
+    },
+    {
+      "title": "In more good news for Amazon, Snowflake signs $6B deal with AWS for AI CPU chips",
+      "source": "TechCrunch",
+      "published_at": "2026-05-27T20:10:00+00:00",
+      "url": "https://techcrunch.com/2026/05/27/in-more-good-news-for-amazon-snowflake-signs-6b-deal-with-aws-for-ai-cpu-chips/",
+      "content_chars": 3804,
+      "content_source": "article_html",
+      "content_truncated": false,
+      "full_content_error": null
+    },
+    {
+      "title": "Payroll startup Remote says it grew revenue 50% per employee without adding headcount",
+      "source": "TechCrunch",
+      "published_at": "2026-05-27T19:39:45+00:00",
+      "url": "https://techcrunch.com/2026/05/27/payroll-startup-remote-says-it-grew-revenue-50-per-employee-without-adding-headcount/",
+      "content_chars": 7644,
+      "content_source": "article_html",
+      "content_truncated": false,
+      "full_content_error": null
+    },
+    {
+      "title": "UK Visa Portal exposed thousands of applicants’ passports and selfies — then called the lawyers on us",
+      "source": "TechCrunch",
+      "published_at": "2026-05-27T18:25:00+00:00",
+      "url": "https://techcrunch.com/2026/05/27/uk-visa-portal-spilled-thousands-of-applicants-passports-and-selfies-online-and-hasnt-fixed-the-leak/",
+      "content_chars": 6162,
+      "content_source": "article_html",
+      "content_truncated": false,
+      "full_content_error": null
+    },
+    {
+      "title": "YouTube will let you ask AI to make a custom video feed",
+      "source": "The Verge",
+      "published_at": "2026-05-28T08:49:07+00:00",
+      "url": "https://www.theverge.com/streaming/938759/youtube-custom-ai-feed-prompt-availability",
+      "content_chars": 2064,
+      "content_source": "article_html",
+      "content_truncated": false,
+      "full_content_error": null
+    },
+    {
+      "title": "The golden age of handheld gaming is already over",
+      "source": "The Verge",
+      "published_at": "2026-05-28T06:30:23+00:00",
+      "url": "https://www.theverge.com/games/938451/steam-deck-price-hike-end-of-handheld-gaming-era",
+      "content_chars": 4453,
+      "content_source": "article_html",
+      "content_truncated": false,
+      "full_content_error": null
+    },
+    {
+      "title": "A Google employee allegedly used inside information to win $1.2 million on Polymarket",
+      "source": "The Verge",
+      "published_at": "2026-05-27T22:30:02+00:00",
+      "url": "https://www.theverge.com/tech/938635/google-polymarket-insider-trading-prediction-market-bets",
+      "content_chars": 3624,
+      "content_source": "article_html",
+      "content_truncated": false,
+      "full_content_error": null
+    },
+    {
+      "title": "Apple’s newest iPad Air is up to $100 off for the first time",
+      "source": "The Verge",
+      "published_at": "2026-05-27T21:08:41+00:00",
+      "url": "https://www.theverge.com/gadgets/938519/apple-ipad-air-m4-deal-sale",
+      "content_chars": 1936,
+      "content_source": "article_html",
+      "content_truncated": false,
+      "full_content_error": null
+    }
+  ],
+  "long_content_samples": [
+    {
+      "title": "Roids were all the rage at the Enhanced Games",
+      "source": "The Verge",
+      "content_chars": 25610,
+      "content_source": "article_html",
+      "content_truncated": false,
+      "url": "https://www.theverge.com/features/937620/enhanced-games-performance-enhancing-drugs-science-health-sports"
+    },
+    {
+      "title": "Gemini, Gophers, and Fingers. Oh My Alternative Internets Beyond HTTPS",
+      "source": "Hacker News",
+      "content_chars": 16039,
+      "content_source": "article_html",
+      "content_truncated": false,
+      "url": "https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https/"
+    },
+    {
+      "title": "vllm-project/vllm v0.21.0",
+      "source": "GitHub Releases",
+      "content_chars": 15121,
+      "content_source": "github_release_body",
+      "content_truncated": null,
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.21.0"
+    },
+    {
+      "title": "AI Datacenters Were Built for GPUs. What Happens When You Remove the GPUs?",
+      "source": "Hacker News",
+      "content_chars": 12064,
+      "content_source": "article_html",
+      "content_truncated": false,
+      "url": "https://almartis.xyz/gpu-free-datacenter.html"
+    },
+    {
+      "title": "I think Anthropic and OpenAI have found product-market fit",
+      "source": "Hacker News",
+      "content_chars": 10202,
+      "content_source": "article_html",
+      "content_truncated": false,
+      "url": "https://simonwillison.net/2026/May/27/product-market-fit/"
+    },
+    {
+      "title": "huggingface/transformers Release 5.8.0",
+      "source": "GitHub Releases",
+      "content_chars": 8609,
+      "content_source": "github_release_body",
+      "content_truncated": null,
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.8.0"
+    },
+    {
+      "title": "huggingface/transformers Release v5.7.0",
+      "source": "GitHub Releases",
+      "content_chars": 7754,
+      "content_source": "github_release_body",
+      "content_truncated": null,
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.7.0"
+    },
+    {
+      "title": "Payroll startup Remote says it grew revenue 50% per employee without adding headcount",
+      "source": "TechCrunch",
+      "content_chars": 7644,
+      "content_source": "article_html",
+      "content_truncated": false,
+      "url": "https://techcrunch.com/2026/05/27/payroll-startup-remote-says-it-grew-revenue-50-per-employee-without-adding-headcount/"
+    }
+  ],
+  "outputs": {
+    "raw": "C:\\Users\\JMY\\Desktop\\tong\\tests\\data\\real_news_raw.json",
+    "cleaned": "C:\\Users\\JMY\\Desktop\\tong\\tests\\data\\real_news_cleaned.json",
+    "summary": "C:\\Users\\JMY\\Desktop\\tong\\tests\\data\\real_news_summary.json"
+  }
+}

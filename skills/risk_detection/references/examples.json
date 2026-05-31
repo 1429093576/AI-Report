@@ -1,0 +1,78 @@
+{
+  "structured_items": [
+    {
+      "id": "structured-risk-high",
+      "title": "AI lab describes model-assisted vulnerability discovery program",
+      "source": "Example News",
+      "url": "https://example.com/security",
+      "published_at": "2026-05-20T09:00:00Z",
+      "source_type": "news",
+      "language": "en",
+      "topic": "AI Safety and Governance",
+      "entities": ["Example AI"],
+      "event_type": "security",
+      "summary": "Example AI described a model-assisted vulnerability discovery program with controlled access and misuse safeguards.",
+      "key_points": [
+        "The program focuses on vulnerability discovery.",
+        "The text mentions controlled access and misuse safeguards."
+      ],
+      "sentiment": "mixed",
+      "impact_scope": "security",
+      "importance_score": 88,
+      "importance_rationale": "模型辅助漏洞发现会影响安全治理和滥用防护关注度。",
+      "risk_level": "high",
+      "risk_rationale": "漏洞发现和滥用防护直接涉及安全治理高风险。",
+      "opportunity_level": "low",
+      "opportunity_rationale": "该事件重点在安全控制，商业或采用机会信号有限。",
+      "evidence": [
+        "model-assisted vulnerability discovery program",
+        "controlled access and misuse safeguards"
+      ],
+      "content_hash": "example-high-risk"
+    },
+    {
+      "id": "structured-opportunity-high",
+      "title": "AI company launches new developer workflow platform",
+      "source": "Example Blog",
+      "url": "https://example.com/platform",
+      "published_at": "2026-05-21T09:00:00Z",
+      "source_type": "blog",
+      "language": "en",
+      "topic": "AI Agents",
+      "entities": ["Example AI"],
+      "event_type": "product_launch",
+      "summary": "Example AI launched a developer workflow platform for agent-assisted software tasks.",
+      "key_points": [
+        "The platform targets developer workflows.",
+        "The launch supports agent-assisted software tasks."
+      ],
+      "sentiment": "positive",
+      "impact_scope": "technology",
+      "importance_score": 82,
+      "importance_rationale": "开发者工作流平台发布影响智能体开发和软件任务执行。",
+      "risk_level": "low",
+      "risk_rationale": "材料未显示安全、合规或交付方面的突出风险。",
+      "opportunity_level": "high",
+      "opportunity_rationale": "开发者工作流平台强化了智能体工具采用机会。",
+      "evidence": [
+        "launched a developer workflow platform",
+        "agent-assisted software tasks"
+      ],
+      "content_hash": "example-high-opportunity"
+    }
+  ],
+  "report_insight_examples": {
+    "risk_insight": {
+      "title": "AI Safety and Governance risk focus",
+      "level": "high",
+      "summary": "The vulnerability discovery program needs misuse and security monitoring.",
+      "evidence_item_ids": ["structured-risk-high"]
+    },
+    "opportunity_insight": {
+      "title": "AI Agents opportunity window",
+      "level": "high",
+      "summary": "The developer workflow platform may create technology adoption opportunities.",
+      "evidence_item_ids": ["structured-opportunity-high"]
+    }
+  }
+}

@@ -1,0 +1,210 @@
+# Runtime configuration for online collection with optional real LLM calls.
+report_timezone: Asia/Shanghai
+report_language: zh-CN
+
+mode:
+  llm: llm
+  source: online
+
+llm:
+  provider: openai_compatible
+  model: gpt-5-mini
+  base_url: https://ai.liaobots.work/v1
+  temperature: 0.2
+  timeout_seconds: 180
+  max_retries: 0
+  pricing:
+    OpenAI:
+      gpt-5-mini:
+        currency: USD
+        unit_tokens: 1000
+        input_price: 0.0005
+        output_price: 0.004
+
+pipeline:
+  llm_max_concurrency: 10
+  llm_business_retry_attempts: 1
+  fetch_full_content: true
+  retry_attempts: 3
+  retry_backoff_seconds: 0.5
+  retry_status_codes: [408, 429, 500, 502, 503, 504]
+
+paths:
+  raw: data/raw/ai_news_raw.json
+  cleaned: data/processed/ai_news_cleaned.json
+  relevant: data/processed/ai_news_relevant.json
+  structured: data/processed/ai_news_structured.json
+  validated: data/processed/ai_news_validated.json
+  relevance_report: logs/relevance_report.json
+  memory_report: logs/memory_report.json
+  report_sections: outputs/report_sections.json
+  validation_report: logs/validation_report.json
+  llm_audit_report: logs/llm_audit_report.json
+  charts_dir: outputs/charts
+  daily_report: outputs/daily_report.md
+  memory: memory/topic_index.json
+  trace: logs/run_trace.jsonl
+
+memory:
+  path: memory/topic_index.json
+  memory_window_days: 7
+  max_history_items_per_topic: 10
+  max_metadata_context_chars: 16000
+  max_fulltext_items: 5
+  max_fulltext_chars_per_item: 2000
+  max_selector_catalog_chars: 16000
+
+sources:
+  - name: local_static_ai_news
+    type: local_json
+    family: local_fixture
+    path: data/raw/ai_news_raw.json
+    enabled: false
+    rationale: "Real recent AI news samples collected as static MVP input for reproducible offline runs."
+  - name: techcrunch_ai
+    family: tech_media
+    type: rss
+    url: https://techcrunch.com/feed/
+    source: TechCrunch
+    source_type: news
+    language: en
+    enabled: true
+    fetch_full_content: true
+    max_items: 10
+    lookback_days: 14
+    tags: ["industry", "startup", "funding"]
+  - name: the_verge_ai
+    family: tech_media
+    type: rss
+    url: https://www.theverge.com/rss/index.xml
+    source: The Verge
+    source_type: news
+    language: en
+    enabled: true
+    fetch_full_content: true
+    max_items: 10
+    lookback_days: 14
+    tags: ["industry", "product", "consumer_ai"]
+  - name: arxiv_ai
+    family: official_channel
+    type: arxiv_api
+    query: "cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.CV"
+    source: arXiv
+    source_type: research
+    language: en
+    enabled: true
+    max_items: 10
+    lookback_days: 14
+    tags: ["research", "paper", "models"]
+  - name: github_releases_ai_tools
+    family: official_channel
+    type: github_releases
+    repos:
+      - huggingface/transformers
+      - vllm-project/vllm
+      - ollama/ollama
+      - langchain-ai/langchain
+    source: GitHub Releases
+    source_type: release
+    language: en
+    enabled: true
+    max_items: 10
+    lookback_days: 30
+    tags: ["release", "developer", "open_source"]
+  - name: hackernews_ai
+    family: social_discussion
+    type: hackernews_api
+    lists: ["topstories", "newstories"]
+    keywords: ["ai", "llm", "openai", "anthropic", "gemini", "agent", "model"]
+    source: Hacker News
+    source_type: forum
+    language: en
+    enabled: true
+    max_items: 10
+    lookback_days: 7
+    tags: ["discussion", "community", "trend"]
+  - name: google_news_ai
+    family: aggregator
+    type: google_news_rss
+    query: "AI OR artificial intelligence OR LLM"
+    source: Google News
+    source_type: news
+    language: en
+    enabled: true
+    fetch_full_content: true
+    max_items: 10
+    lookback_days: 7
+    tags: ["aggregator", "news"]
+  - name: qbitai
+    family: tech_media
+    type: rss
+    url: https://www.qbitai.com/feed
+    source: 量子位
+    source_type: news
+    language: zh
+    enabled: true
+    fetch_full_content: true
+    full_content_min_chars: 120
+    max_items: 10
+    lookback_days: 7
+    tags: ["ai", "china_media", "news"]
+    rationale: "Use the public RSS feed for discovery, then fetch article HTML for full content."
+  - name: ithome_ai
+    family: tech_media
+    type: rss
+    url: https://www.ithome.com/rss/
+    source: IT之家
+    source_type: news
+    language: zh
+    enabled: true
+    fetch_full_content: true
+    full_content_min_chars: 120
+    max_items: 10
+    lookback_days: 7
+    candidate_keywords:
+      - AI
+      - 人工智能
+      - 大模型
+      - 模型
+      - 智能体
+      - AIGC
+      - LLM
+      - GPT
+      - Claude
+      - Gemini
+      - Copilot
+      - 自动驾驶
+      - 机器人
+      - 算力
+      - 推理
+      - 训练
+      - 多模态
+      - 生成式
+    tags: ["china_media", "tech_news", "ai_candidate"]
+    rationale: "Use the public IT Home RSS feed for discovery, then rely on relevance filtering to keep only AI-tech news."
+  - name: x_ai_search
+    family: social_discussion
+    type: x_api
+    source: X
+    source_type: social
+    language: en
+    enabled: false
+    requires_auth: true
+    rationale: "Requires API credentials."
+  - name: reddit_ai
+    family: social_discussion
+    type: reddit_rss
+    source: Reddit
+    source_type: forum
+    language: en
+    enabled: false
+    rationale: "Deferred until subreddit RSS/API policy is finalized."
+  - name: product_hunt_ai
+    family: aggregator
+    type: product_hunt_api
+    source: Product Hunt
+    source_type: news
+    language: en
+    enabled: false
+    requires_auth: true
+    rationale: "Requires API credentials."

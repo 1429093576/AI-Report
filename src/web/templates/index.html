@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daily AI Insight Engine</title>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              ink: "#172033",
+              quiet: "#667085",
+              line: "#d8dee9",
+              canvas: "#f5f7fb",
+              panel: "#ffffff",
+              brand: "#0f766e",
+              brandDeep: "#115e59",
+              runBlue: "#2563eb",
+              okGreen: "#16a34a",
+              badRed: "#dc2626"
+            },
+            boxShadow: {
+              soft: "0 18px 55px rgba(23, 32, 51, 0.10)"
+            }
+          }
+        }
+      };
+    </script>
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body class="min-h-screen bg-canvas text-ink">
+    <main class="app-shell">
+      <header class="app-topbar">
+        <div class="min-w-0">
+          <p class="eyebrow">Daily AI Insight Engine</p>
+          <div class="title-row">
+            <h1>AI 日报运行控制台</h1>
+            <span id="run-badge" class="status-badge status-idle">未运行</span>
+          </div>
+        </div>
+        <div class="top-actions">
+          <div class="mode-switch" role="tablist" aria-label="页面模式">
+            <button id="monitor-mode-button" class="mode-button active" type="button">监控台</button>
+            <button id="reader-mode-button" class="mode-button" type="button">阅读器</button>
+          </div>
+          <button id="start-button" class="primary-button" type="button">开始今日运行</button>
+        </div>
+      </header>
+
+      <section class="run-strip" aria-label="当前运行概要">
+        <div>
+          <span>run_id</span>
+          <strong id="run-id">-</strong>
+        </div>
+        <div>
+          <span>报告日期</span>
+          <strong id="run-date">-</strong>
+        </div>
+        <div>
+          <span>时区</span>
+          <strong id="report-timezone">-</strong>
+        </div>
+        <div>
+          <span>进度</span>
+          <strong id="progress-summary">0/9</strong>
+        </div>
+      </section>
+
+      <section id="monitor-view" class="view-panel active">
+        <div class="monitor-layout">
+          <article class="spotlight-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="section-kicker">当前步骤</p>
+                <h2 id="current-step-title">等待启动</h2>
+              </div>
+              <span id="current-step-status" class="mini-badge">idle</span>
+            </div>
+
+            <p id="status-message" class="status-copy">等待开始。</p>
+
+            <div class="metric-grid" aria-label="运行统计">
+              <div>
+                <span>raw</span>
+                <strong id="count-raw">-</strong>
+              </div>
+              <div>
+                <span>cleaned</span>
+                <strong id="count-cleaned">-</strong>
+              </div>
+              <div>
+                <span>relevant</span>
+                <strong id="count-relevant">-</strong>
+              </div>
+              <div>
+                <span>validated</span>
+                <strong id="count-validated">-</strong>
+              </div>
+            </div>
+
+            <div class="activity-header">
+              <h3>运行活动</h3>
+              <span id="health-summary">-</span>
+            </div>
+            <ol id="activity-feed" class="activity-feed">
+              <li class="empty-row">等待 trace 写入。</li>
+            </ol>
+          </article>
+
+          <aside class="artifact-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="section-kicker">产物橱窗</p>
+                <h2>Artifacts</h2>
+              </div>
+              <span id="artifact-count" class="mini-badge">0</span>
+            </div>
+            <div id="artifact-cards" class="artifact-grid"></div>
+          </aside>
+        </div>
+
+        <nav class="stepper-shell" aria-label="主链路进度">
+          <div class="stepper-head">
+            <span>全局进度轴</span>
+            <strong id="progress-percent">0%</strong>
+          </div>
+          <ol id="steps" class="stepper"></ol>
+        </nav>
+      </section>
+
+      <section id="reader-view" class="view-panel">
+        <div class="reader-toolbar">
+          <button id="back-to-monitor" class="secondary-button" type="button">返回监控台</button>
+          <div class="reader-actions">
+            <button id="copy-report" class="secondary-button" type="button">复制全文</button>
+            <a id="download-report" class="secondary-button disabled-link" href="#" download>下载 Markdown</a>
+          </div>
+        </div>
+
+        <div class="reader-layout">
+          <aside class="outline-panel">
+            <p class="section-kicker">目录</p>
+            <nav id="report-outline" class="report-outline">
+              <span class="empty-row">报告生成后显示目录。</span>
+            </nav>
+          </aside>
+          <article class="report-surface">
+            <div id="report-empty" class="report-empty">
+              <p class="section-kicker">报告阅读器</p>
+              <h2>等待 Markdown 日报生成</h2>
+              <p>完成 `generate_report` 后，这里会自动渲染最终日报，并把图表嵌入正文。</p>
+            </div>
+            <div id="report-content" class="prose prose-slate max-w-none report-content"></div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      window.INITIAL_RUN_ID = {{ latest_run_id | tojson }};
+      window.INITIAL_STATUS = {{ latest_status | tojson }};
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.7/dist/purify.min.js"></script>
+    <script src="/static/app.js"></script>
+  </body>
+</html>

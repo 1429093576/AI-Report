@@ -1,0 +1,1008 @@
+[
+  {
+    "id": "structured-techcrunch_ai-33aca19d685fd201",
+    "title": "SoftBank says it will invest up to €75 billion to build French data centers",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
+    "published_at": "2026-05-30T21:45:00Z",
+    "source_type": "news",
+    "language": "en",
+    "topic": "AI Infrastructure",
+    "entities": [
+      "SoftBank",
+      "France",
+      "OpenAI"
+    ],
+    "event_type": "market",
+    "summary": "软银宣布计划在法国投入最高750亿欧元建设数据中心，并表示目标是开发和运营最多5吉瓦的新增数据中心容量。该计划被描述为其在欧洲规模最大的AI基础设施投资。",
+    "key_points": [
+      "软银计划在法国扩建数据中心容量，投资上限达750亿欧元。",
+      "项目目标是新增最多5吉瓦容量，首期将在法国北部多个地点建设。",
+      "软银称这将是其在欧洲最大的AI基础设施投资。"
+    ],
+    "sentiment": "positive",
+    "impact_scope": "industry",
+    "importance_score": 88,
+    "importance_rationale": "这是涉及欧洲大规模AI基础设施扩张的资本和产业事件，且明确关联数据中心容量与AI价值链布局，影响范围较大。",
+    "risk_level": "medium",
+    "risk_rationale": "材料同时提到数据中心建设引发的环境、电网和电价争议，说明项目存在一定监管与落地风险。",
+    "opportunity_level": "high",
+    "opportunity_rationale": "新增大规模数据中心容量有望增强AI算力供给，并为欧洲AI训练和部署需求提供基础设施支撑。",
+    "evidence": [
+      "SoftBank Group announced today that it plans to spend up to €75 billion (around $87 billion) to expand data center capacity in France.",
+      "The goal, the firm said, is to develop and operate up to 5 gigawatts of additional data center capacity.",
+      "SoftBank, which is both an investor in and customer of OpenAI, says this will be its largest AI infrastructure investment in Europe."
+    ],
+    "evidence_sources": [
+      {
+        "source_item_id": "raw-techcrunch_ai-33aca19d685fd201",
+        "evidence_field": "content",
+        "evidence_quote": "SoftBank Group announced today that it plans to spend up to €75 billion (around $87 billion) to expand data center capacity in France.",
+        "claim": "支撑新闻核心事实：软银宣布在法国投入最高750亿欧元扩建数据中心。"
+      },
+      {
+        "source_item_id": "raw-techcrunch_ai-33aca19d685fd201",
+        "evidence_field": "summary",
+        "evidence_quote": "The goal, the firm said, is to develop and operate up to 5 gigawatts of additional data center capacity.",
+        "claim": "支撑总结中关于新增容量规模的表述。"
+      },
+      {
+        "source_item_id": "raw-techcrunch_ai-33aca19d685fd201",
+        "evidence_field": "content",
+        "evidence_quote": "SoftBank, which is both an investor in and customer of OpenAI, says this will be its largest AI infrastructure investment in Europe.",
+        "claim": "支撑重要性判断中关于AI基础设施投资规模和关联主体的表述。"
+      }
+    ],
+    "content_hash": "61c1d3450c76bf60158da3ae6f53ea6e7294c2e3e0053d4fe3e30ebc536357fe"
+  },
+  {
+    "id": "structured-techcrunch_ai-77d4afd9e090c38a",
+    "title": "Snap alums unveil Ghost Angels fund",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2026/05/30/snap-alums-unveil-ghost-angels-fund/",
+    "published_at": "2026-05-30T17:00:00Z",
+    "source_type": "news",
+    "language": "en",
+    "topic": "AI Business and Market",
+    "entities": [
+      "Ghost Angels",
+      "Snap",
+      "Max Rivera",
+      "Alexandra Levitt",
+      "Will Wu",
+      "Microsoft",
+      "Molly DeWolf Swenson",
+      "Mozi"
+    ],
+    "event_type": "funding",
+    "summary": "约20名 Snap 校友发起名为 Ghost Angels 的基金以支持下一代社交媒体，基金表示已支持至少五家公司并计划在未来一年内向至少15家公司部署剩余资金，基金创始人为 Max Rivera（曾负责 Snap 全球合作，现任职于 Microsoft 的 AI 部门）。",
+    "key_points": [
+      "约20名 Snap 校友成立 Ghost Angels 基金，目标是支持下一代社交媒体。",
+      "基金已支持至少五家公司，并计划在一年内向至少15家公司部署剩余资金。",
+      "基金专注于对社交媒体和消费领域的早期 AI 初创公司（pre-seed 到 seed）进行投资。"
+    ],
+    "sentiment": "positive",
+    "impact_scope": "capital",
+    "importance_score": 62,
+    "importance_rationale": "由多名有影响力的 Snap 校友联合发起并已进行后续投资，表明对社交类 AI 初创的早期资本支持正在形成，具有对早期创业生态的可跟踪影响。",
+    "risk_level": "low",
+    "risk_rationale": "报道未披露基金规模且未提及安全、合规或已发生的争议性事件，因此目前没有显示出明显的系统性风险信号。",
+    "opportunity_level": "medium",
+    "opportunity_rationale": "基金聚焦在社交和消费领域的早期 AI 创业，且报道提到对 AI 原生格式和生成式创意工具的投资意向，说明对降低创作门槛和孵化新模式存在显著机会，但具体影响取决于后续资本部署规模。",
+    "evidence": [
+      "新闻指出20名 Snap 校友发起 Ghost Angels 基金以支持下一代社交媒体。",
+      "报道称基金已支持至少五家公司，并计划在一年内向至少15家公司部署剩余资金。",
+      "文章明确基金专注于投资社交媒体和消费领域的早期 AI 初创公司"
+    ],
+    "evidence_sources": [
+      {
+        "source_item_id": "raw-techcrunch_ai-77d4afd9e090c38a",
+        "evidence_field": "summary",
+        "evidence_quote": "A group of 20 Snap alumni has come together to launch a fund called Ghost Angels to back the next generation of social media.",
+        "claim": "支撑 summary 中关于20名 Snap 校友成立 Ghost Angels 基金以支持下一代社交媒体的事实"
+      },
+      {
+        "source_item_id": "raw-techcrunch_ai-77d4afd9e090c38a",
+        "evidence_field": "content",
+        "evidence_quote": "The fund declined to disclose how much it has raised so far, but says it has backed at least five companies and plans to deploy the remaining capital within the next year into at least 15 companies.",
+        "claim": "支撑 importance_rationale 与 opportunity_rationale 中关于基金已投资至少5家公司并计划在一年内向至少15家公司部署剩余资金的判断"
+      },
+      {
+        "source_item_id": "raw-techcrunch_ai-77d4afd9e090c38a",
+        "evidence_field": "content",
+        "evidence_quote": "Max Rivera, who once led global partnerships at Snap, started the fund in 2025 to formalize the already-growing Snap alumni angel-investing community.",
+        "claim": "支撑 entities 与 summary 中关于 Max Rivera 为基金发起人且具备 Snap 背景的描述"
+      }
+    ],
+    "content_hash": "cea17efe0084ff77e447c0e850e73bccf31c50cedef05c8216beff22b03f98a9"
+  },
+  {
+    "id": "structured-techcrunch_ai-d1365c17d6f8061b",
+    "title": "‘What a joke’: Github Copilot’s new token-based billing spurs consternation among devs",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilot-s-new-token-based-billing-spurs-consternation-among-devs/",
+    "published_at": "2026-05-30T16:30:00Z",
+    "source_type": "news",
+    "language": "en",
+    "topic": "Developer Tools and Open Source",
+    "entities": [
+      "Microsoft",
+      "GitHub Copilot"
+    ],
+    "event_type": "market",
+    "summary": "TechCrunch 报道称，GitHub Copilot 正把计费方式从固定订阅改为按 token 用量计费，引发开发者对成本上升的担忧。报道提到，小公司和个人开发者可能更容易感受到预算压力。",
+    "key_points": [
+      "GitHub Copilot 的计费模式将从固定订阅改为按 token 用量计费。",
+      "部分开发者在社交平台上抱怨新方案可能显著抬高月度成本。",
+      "报道认为这一变化对小公司和个人开发者的预算影响更大。"
+    ],
+    "sentiment": "negative",
+    "impact_scope": "industry",
+    "importance_score": 72,
+    "importance_rationale": "GitHub Copilot 是重要的开发者工具，这次计费机制调整直接影响开发工作流中的成本结构和使用方式，因此具有明确的行业跟踪价值。",
+    "risk_level": "medium",
+    "risk_rationale": "报道显示开发者对价格上涨和预算失控存在明显不满，但材料未表明出现安全、合规或交付层面的严重风险。",
+    "opportunity_level": "medium",
+    "opportunity_rationale": "按用量计费可能为高频企业用户提供更灵活的商业模式，但材料同时显示其短期更像是成本争议而非明确的增长机会。",
+    "evidence": [
+      "GitHub Copilot’s new token-based billing spurs consternation among devs",
+      "The company is switching its billing system from a flat subscription rate to a token-usage system that has the potential to bill users at a significantly higher rate.",
+      "Bigger enterprises may still have the juice for it, but smaller companies and workers could find themselves wondering how they’re supposed to balance the monthly budget."
+    ],
+    "evidence_sources": [
+      {
+        "source_item_id": "raw-techcrunch_ai-d1365c17d6f8061b",
+        "evidence_field": "title",
+        "evidence_quote": "‘What a joke’: Github Copilot’s new token-based billing spurs consternation among devs",
+        "claim": "该标题直接表明 GitHub Copilot 的新 token 计费引发开发者不满，支撑负面情绪与市场关注度判断。"
+      },
+      {
+        "source_item_id": "raw-techcrunch_ai-d1365c17d6f8061b",
+        "evidence_field": "content",
+        "evidence_quote": "The company is switching its billing system from a flat subscription rate to a token-usage system that has the potential to bill users at a significantly higher rate.",
+        "claim": "该句支撑新闻核心事实：GitHub Copilot 正从固定订阅改为按 token 用量计费。"
+      },
+      {
+        "source_item_id": "raw-techcrunch_ai-d1365c17d6f8061b",
+        "evidence_field": "content",
+        "evidence_quote": "Bigger enterprises may still have the juice for it, but smaller companies and workers could find themselves wondering how they’re supposed to balance the monthly budget.",
+        "claim": "该句支撑风险与影响范围判断，即中小团队和个人开发者可能面临更强的预算压力。"
+      }
+    ],
+    "content_hash": "670362b1bb2e728d77db524a9c58f6f02bb219178282b8455df0f11e6d1975ce"
+  },
+  {
+    "id": "structured-hackernews_ai-b8ccdde382502cf5",
+    "title": "Domain expertise has always been the real moat",
+    "source": "Hacker News",
+    "url": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/",
+    "published_at": "2026-05-30T20:40:57Z",
+    "source_type": "forum",
+    "language": "en",
+    "topic": "AI Agents",
+    "entities": [
+      "AI industry"
+    ],
+    "event_type": "other",
+    "summary": "文章论述在代理式（agentic）AI 出现后，代码生成与领域建模被分离，领域专长成为验证 AI 输出正确性的关键能力，因此同时具备领域知识与工程能力的人在新环境中更有价值。",
+    "key_points": [
+      "作者认为代理式 AI 切断了将领域理解转写为代码的链条，使代码生成变得更便捷。",
+      "域专家能判断 AI 生成结果的正确性，从而在使用代理工具时非常高效。",
+      "拥有既能写出可靠代码又能验证领域正确性的人在新生态中最具价值。"
+    ],
+    "sentiment": "neutral",
+    "impact_scope": "industry",
+    "importance_score": 62,
+    "importance_rationale": "文章指出代理式 AI 改变了工程师与域专家的分工，这一技能结构变化可能影响行业内的人才培养与岗位价值评估，因此值得关注。",
+    "risk_level": "medium",
+    "risk_rationale": "材料提出工程师可能无法验证领域正确性，导致 AI 生成的“看似合理但错误”的规则通过测试并造成昂贵错误，这构成了中等的执行与准确性风险信号。",
+    "opportunity_level": "high",
+    "opportunity_rationale": "材料明确描述域专家借助代理工具能快速生成并验证结果，表明代理化工具能放大领域专长的价值，从而带来明显的采用和商业化机会。",
+    "evidence": [
+      "作者指出代理式 AI 切断了将领域理解转为代码的链条，支持代码生成被工具承担而领域验证仍稀缺的判断。",
+      "作者描述域专家在使用代理工具时能判断输出正确性，支持域专家因此更有效地利用 AI 的结论。",
+      "作者称同时具备编码与领域验证能力的人在新环境中最有价值，支持对技能组合重要性的评估。"
+    ],
+    "evidence_sources": [
+      {
+        "source_item_id": "raw-hackernews_ai-b8ccdde382502cf5",
+        "evidence_field": "content",
+        "evidence_quote": "Agentic AI severed the link between the two.",
+        "claim": "支持 summary：说明代理式 AI 将代码生成与领域建模分离这一事实。"
+      },
+      {
+        "source_item_id": "raw-hackernews_ai-b8ccdde382502cf5",
+        "evidence_field": "content",
+        "evidence_quote": "Hand them an agent and they are startlingly effective, because the thing they’re missing, the ability to produce code, is exactly the thing the agent supplies.",
+        "claim": "支持 opportunity_level：说明域专家在代理帮助下能有效产出软件，表明采用代理工具带来机会。"
+      },
+      {
+        "source_item_id": "raw-hackernews_ai-b8ccdde382502cf5",
+        "evidence_field": "content",
+        "evidence_quote": "So the most valuable person in this new world is the one who has both skills because they can verify at both layers.",
+        "claim": "支持 importance_score：说明同时具备编码与领域验证能力的人在新环境中更有价值，从而提高事件关注度。"
+      }
+    ],
+    "content_hash": "7564c76a1e5c99a818c067a228636020b37bbb0f5d1ae2a9e53bc2a0a77f345f"
+  },
+  {
+    "id": "structured-hackernews_ai-5fd94f82f281431a",
+    "title": "OpenRouter raises $113M Series B",
+    "source": "Hacker News",
+    "url": "https://openrouter.ai/announcements/series-b",
+    "published_at": "2026-05-30T17:27:28Z",
+    "source_type": "forum",
+    "language": "en",
+    "topic": "AI Infrastructure",
+    "entities": [
+      "OpenRouter",
+      "CapitalG",
+      "NVentures",
+      "NVIDIA",
+      "ServiceNow Ventures",
+      "MongoDB Ventures",
+      "Snowflake Ventures",
+      "Databricks Ventures",
+      "AMP PBC",
+      "Pace Capital",
+      "Andreessen Horowitz",
+      "Menlo Ventures"
+    ],
+    "event_type": "funding",
+    "summary": "OpenRouter 宣布完成 1.13 亿美元 B 轮融资，领投方为 CapitalG，参与者包括多家云与数据平台相关的战略性创投机构。公司报告过去六个月流量显著增长，并表示平台定位为跨提供商、多模型的路由与网关基础设施，面向大规模生产应用与开发者。",
+    "key_points": [
+      "OpenRouter 完成 $113M B 轮融资，CapitalG 领投，多个平台型投资者参与。",
+      "公司称过去六个月周均流量从 5 trillion 增至 25 trillion，并预计今年处理超过 a quadrillion tokens、服务 8M+ 开发者。",
+      "OpenRouter 定位为多模型路由/网关基础设施，强调路由、可靠性、成本优化和合规控制等企业功能。"
+    ],
+    "sentiment": "positive",
+    "impact_scope": "technology",
+    "importance_score": 88,
+    "importance_rationale": "本次融资由 CapitalG 等战略性平台公司领投且参与方包括 NVIDIA、Snowflake、Databricks 等，结合公司声称的流量和开发者规模，表明这是影响多模型基础设施供应的重要商业事件。",
+    "risk_level": "low",
+    "risk_rationale": "公告主要强调增长、产品能力和企业控制，并未披露安全事件、合规失败或交付问题，因此材料中未显示显著的安全或合规风险信号。",
+    "opportunity_level": "high",
+    "opportunity_rationale": "投资方多为基础设施与数据平台型公司且公司报告大幅流量和广泛开发者采用，说明对多模型路由与网关层的企业需求明确，扩展企业部署与生态集成机会显著。",
+    "evidence": [
+      "公告称完成 $113M B 轮融资，领投方为 CapitalG，参与者包括 NVentures、ServiceNow Ventures、MongoDB Ventures、Snowflake Ventures、Databricks Ventures 等。",
+      "公司报告过去六个月周均流量从 5 trillion 增长到 25 trillion，并预计今年处理超过 a quadrillion tokens，服务 8M+ 开发者，覆盖 400+ 模型。"
+    ],
+    "evidence_sources": [
+      {
+        "source_item_id": "raw-hackernews_ai-5fd94f82f281431a",
+        "evidence_field": "content",
+        "evidence_quote": "Today we're announcing our $113M Series B, led by CapitalG (opens in new tab) (Alphabet's independent growth fund), with participation from NVentures (opens in new tab) (NVIDIA's venture capital arm), ServiceNow (opens in new tab) Ventures, MongoDB (opens in new tab) Ventures, Snowflake (opens in new tab) Ventures, Databricks (opens in new tab) Ventures, AMP PBC (opens in new tab), and Pace Capital (opens in new tab), alongside our existing investors Andreessen Horowitz (opens in new tab) and Menlo Ventures (opens in new tab).",
+        "claim": "支撑 summary 和 event_type（融资事件）、并证明投资方构成是战略性平台与基金。"
+      },
+      {
+        "source_item_id": "raw-hackernews_ai-5fd94f82f281431a",
+        "evidence_field": "content",
+        "evidence_quote": "We are on pace to process over a quadrillion tokens this year and serve 8M+ developers building across 400+ models.",
+        "claim": "支撑公司规模、增长和市场采用信号，佐证 importance_score 与 opportunity_level 判断。"
+      }
+    ],
+    "content_hash": "d24961a913934acd346a77d2a3d5e93f2e9d9eae029e55a79b8835f663212ceb"
+  },
+  {
+    "id": "structured-hackernews_ai-3fe446051ad93669",
+    "title": "Show HN: Komi-learn – continuous memory and self-improvement for coding agents",
+    "source": "Hacker News",
+    "url": "https://github.com/kurikomi-labs/komi-learn",
+    "published_at": "2026-05-31T05:11:40Z",
+    "source_type": "forum",
+    "language": "en",
+    "topic": "AI Agents",
+    "entities": [
+      "Komi-learn",
+      "kurikomi-labs",
+      "Claude Code",
+      "Codex",
+      "Hermes Agent"
+    ],
+    "event_type": "product_launch",
+    "summary": "Komi-learn 在 GitHub 开源，提供针对编码智能体的持续记忆与自我改进功能，能在会话间自动回忆用户习惯并兼容 Claude Code 与 Codex。",
+    "key_points": [
+      "Komi-learn 提供持续记忆与自动回忆用户工作方式，面向编码智能体。",
+      "项目兼容 Claude Code 与 Codex，并提供可选的社区共享池以交换通用学习成果。",
+      "作者声明项目“It's early”，核心循环已构建并通过 CI，但尚未经过大量实战测试。"
+    ],
+    "sentiment": "positive",
+    "impact_scope": "technology",
+    "importance_score": 58,
+    "importance_rationale": "该开源项目提出连续记忆与自我改进的智能体工作流，兼容主流编码模型并提供社区池机制，对开发者工具和智能体实验有明确参考价值但尚未大规模验证。",
+    "risk_level": "medium",
+    "risk_rationale": "作者强调项目处于早期且未大规模实战验证，虽然声明对敏感信息有过滤和本地审批机制，但早期实现与社区共享可能带来隐私或错误学习的风险。",
+    "opportunity_level": "medium",
+    "opportunity_rationale": "项目直接兼容 Claude Code 与 Codex、支持社区池与签名机制，若稳定可推动编码智能体在开发者工作流中的采用，但当前采纳和可靠性仍不确定。",
+    "evidence": [
+      "标题与正文说明 Komi-learn 的目标是为编码智能体提供持续记忆与自我改进。",
+      "正文提到该工具兼容 Claude Code 与 Codex，显示与主流编码模型的集成能力。",
+      "正文同时指出项目为早期版本且“尚未经过大量实战测试”，表明成熟度有限并增加不确定性。"
+    ],
+    "evidence_sources": [
+      {
+        "source_item_id": "raw-hackernews_ai-3fe446051ad93669",
+        "evidence_field": "title",
+        "evidence_quote": "Show HN: Komi-learn – continuous memory and self-improvement for coding agents",
+        "claim": "support summary"
+      },
+      {
+        "source_item_id": "raw-hackernews_ai-3fe446051ad93669",
+        "evidence_field": "content",
+        "evidence_quote": "Works with Claude Code and Codex.",
+        "claim": "support entities and opportunity_rationale"
+      },
+      {
+        "source_item_id": "raw-hackernews_ai-3fe446051ad93669",
+        "evidence_field": "content",
+        "evidence_quote": "It's early. The core loop is built and CI-tested, but it hasn't been battle-tested across a lot of real sessions yet.",
+        "claim": "support risk_rationale and importance_rationale"
+      }
+    ],
+    "content_hash": "1825e056ff1a1a55346dac68f975afd1cbd96f78071c69263370d7efefd7dc26"
+  },
+  {
+    "id": "structured-hackernews_ai-601aaade029805b0",
+    "title": "Rotary GPU: Exploring Local Execution for Large MoE Models Under Limited VRAM",
+    "source": "Hacker News",
+    "url": "https://arxiv.org/abs/2605.29135",
+    "published_at": "2026-05-30T21:05:40Z",
+    "source_type": "forum",
+    "language": "en",
+    "topic": "AI Research",
+    "entities": [
+      "Rotary GPU",
+      "Qwen3.6-35B-A3B-class Mixture-of-Experts",
+      "RTX 4060 Laptop GPU",
+      "arXivLabs"
+    ],
+    "event_type": "research",
+    "summary": "该论文提出 Rotary GPU，一种旨在在受限 GPU 内存环境中本地执行大型 Mixture-of-Experts 模型的探索性执行方法，并在带有 8 GB VRAM 的 RTX 4060 笔记本 GPU 上对 Qwen3.6-35B-A3B 类 MoE 模型进行了公开验证，展示了可行性但强调结果为探索性而非决定性结论。",
+    "key_points": [
+      "论文提出 Rotary GPU，探索在小内存硬件上运行大型 MoE 模型的可行性。",
+      "公开验证使用 Qwen3.6-35B-A3B-class Mixture-of-Experts 在搭载 8 GB VRAM 的 RTX 4060 笔记本 GPU 本地执行。",
+      "实验在主配置下生成 2048 个输出标记，维持约 6.3 GB VRAM 使用量，观测到解码吞吐约 21.06 tokens/s，作者将结果定义为探索性而非替代数据中心方案。"
+    ],
+    "sentiment": "neutral",
+    "impact_scope": "technology",
+    "importance_score": 62,
+    "importance_rationale": "作为一篇探索性研究，论文直接演示了在消费级 GPU 上本地运行大型 MoE 模型的可行性，针对部署可及性提出具体实验结果，对模型部署与推理方法的技术讨论具有中等关注度。",
+    "risk_level": "low",
+    "risk_rationale": "文章多次强调结果为探索性并非替代数据中心，正文未披露安全、隐私或滥用相关问题，材料中未显示显著的安全或合规风险信号。",
+    "opportunity_level": "medium",
+    "opportunity_rationale": "公开验证表明部分大型模型能力可在受限硬件上实现本地推理，这为受硬件、预算或封闭网络限制的组织带来潜在部署与可及性机会，但结果尚属探索性，推广路径和性能限制仍不明确。",
+    "evidence": [
+      "论文提出 Rotary GPU，探索在受限 GPU 内存环境中本地执行大型 Mixture-of-Experts 模型的可能性。",
+      "公开验证使用 Qwen3.6-35B-A3B-class Mixture-of-Experts 在配备 8 GB VRAM 的 RTX 4060 笔记本 GPU 上本地执行并记录性能数据。",
+      "主配置下系统生成 2048 输出标记，维持约 6.3 GB VRAM 使用且观测到 21.06 tokens/s 的解码吞吐率，作者强调结果为探索性而非决定性。"
+    ],
+    "evidence_sources": [
+      {
+        "source_item_id": "raw-hackernews_ai-601aaade029805b0",
+        "evidence_field": "title",
+        "evidence_quote": "Rotary GPU: Exploring Local Execution for Large MoE Models Under Limited VRAM",
+        "claim": "支持 summary 中关于研究主题（在受限 VRAM 下探索本地执行大型 MoE 模型）的表述"
+      },
+      {
+        "source_item_id": "raw-hackernews_ai-601aaade029805b0",
+        "evidence_field": "content",
+        "evidence_quote": "This paper presents Rotary GPU, an exploratory execution approach derived from a previously disclosed rotary-based accelerator residency concept.",
+        "claim": "支持论文提出 Rotary GPU 为探索性执行方法，作为研究定位的依据，支撑 importance_rationale 与 opportunity_rationale 中关于方法探索性的判断"
+      },
+      {
+        "source_item_id": "raw-hackernews_ai-601aaade029805b0",
+        "evidence_field": "content",
+        "evidence_quote": "A public validation was conducted using a Qwen3.6-35B-A3B-class Mixture-of-Experts model executed locally on a consumer laptop with an RTX 4060 Laptop GPU containing 8 GB of VRAM.",
+        "claim": "支持 summary 和 key_points 中关于公开验证在带 8 GB VRAM 的 RTX 4060 笔记本上运行 Qwen3.6-35B-A3B MoE 的事实陈述，亦支撑 opportunity_rationale 中关于部署可及性的判断"
+      }
+    ],
+    "content_hash": "26dd900a1680fadc6d3a9cdeea1c58bc7e0bb53602eac8e7e69b0324dbc49325"
+  },
+  {
+    "id": "structured-hackernews_ai-dc361ad1675cc8ef",
+    "title": "Build Agents, Not Pipelines",
+    "source": "Hacker News",
+    "url": "https://www.seangoedecke.com/build-agents-not-pipelines/",
+    "published_at": "2026-05-31T08:23:38Z",
+    "source_type": "forum",
+    "language": "en",
+    "topic": "AI Agents",
+    "entities": [
+      "Claude Code",
+      "Codex",
+      "Cursor",
+      "Copilot",
+      "Anthropic",
+      "NSA",
+      "LLMs"
+    ],
+    "event_type": "other",
+    "summary": "文章讨论在程序中使用 LLM 的两种架构：以代码控制流程的 pipeline 与由 LLM 管理控制流的 agent，比较了可预测性、成本、上下文组装和可扩展性等权衡，并给出何时应选用 pipeline 或 agent 的实用建议。",
+    "key_points": [
+      "作者把 LLM 集成分为 pipeline 或 agent 两种模式，并解释二者控制流差异。",
+      "文章指出 agent 在处理大上下文和复杂任务时更灵活且更具前瞻性，但会带来不可预测的成本和延迟。",
+      "作者给出实际建议：在上下文大小受限、本地模型或成本可预测时用 pipeline；在问题难度大或难以一次性组装全部上下文时用 agent。"
+    ],
+    "sentiment": "positive",
+    "impact_scope": "technology",
+    "importance_score": 45,
+    "importance_rationale": "该文为技术性设计指南，聚焦 agent 与 pipeline 的架构选择，对开发者设计决策有参考价值，但来源为论坛转载且互动与影响力有限，因此重要性属于中低。",
+    "risk_level": "medium",
+    "risk_rationale": "文章明确指出 agent 可能导致执行时间和成本不可预测并提到 prompt injection 风险，表明存在可量化的运行与安全不确定性但未报告实际事故。",
+    "opportunity_level": "medium",
+    "opportunity_rationale": "作者强调 agent 在处理更大上下文和复杂任务时更有优势，并列举多款成功的编码 agent 作为证据，表明对开发者工具与编码智能体存在明确的能力和采纳机会。",
+    "evidence": [
+      "文章开篇将使用 LLM 的方式归为 pipeline 或 agent 两类，并解释二者控制流差异，支撑主题判断。",
+      "文中指出“most successful AI products (coding agents like Claude Code, Codex, Cursor, and Copilot)” 为 agent，支撑 agent 在编码场景中的优势判断。",
+      "作者在结论中给出具体准则并写道“When in doubt, use agents.”，支撑其对 agent 更偏好的建议性结论。"
+    ],
+    "evidence_sources": [
+      {
+        "source_item_id": "raw-hackernews_ai-dc361ad1675cc8ef",
+        "evidence_field": "content",
+        "evidence_quote": "There are only two ways to use LLMs in a computer program: as part of a pipeline, or as an agent.",
+        "claim": "summary"
+      },
+      {
+        "source_item_id": "raw-hackernews_ai-dc361ad1675cc8ef",
+        "evidence_field": "content",
+        "evidence_quote": "There’s a reason that the most successful AI products (coding agents like Claude Code, Codex, Cursor, and Copilot 3 ) are agents: coding is a hard enough task that you simply cannot build a functional coding agent with pipelines.",
+        "claim": "opportunity_level"
+      },
+      {
+        "source_item_id": "raw-hackernews_ai-dc361ad1675cc8ef",
+        "evidence_field": "content",
+        "evidence_quote": "When in doubt, use agents.",
+        "claim": "importance_rationale"
+      }
+    ],
+    "content_hash": "001aea3c161c4283b06578fd2c384b03270c96bfca0e327e5cdae2fa89551b6b"
+  },
+  {
+    "id": "structured-google_news_ai-c4117287cb70656e",
+    "title": "Jay Casbon: Pope Leo XIV, Artificial Intelligence and Santa Barbara’s Future - Noozhawk",
+    "source": "Google News",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRUVXbkhMUEZJRzd1VUY0SzhRemVHWTd4X2NET3RaLVMwMk9idUQzNUtBOXJvWTJmOEJVTlU0czhnNzVPSVl6MXpIdGduZ2hjbVY5ZldGY0pFYjNVLWFoaFVISzVvQlQ1NmxibWlZa0VsMVVyWnhQZ0JYN01qd1VaOWlVZWYtR2dNWTFMb3FwRGNQM0tQaXhEZkN3?oc=5",
+    "published_at": "2026-05-30T19:30:00Z",
+    "source_type": "news",
+    "language": "en",
+    "topic": "AI Business and Market",
+    "entities": [
+      "Jay Casbon",
+      "Pope Leo XIV",
+      "Santa Barbara",
+      "Noozhawk"
+    ],
+    "event_type": "other",
+    "summary": "Jay Casbon 在 Noozhawk 发表题为 “Pope Leo XIV, Artificial Intelligence and Santa Barbara’s Future” 的文章，标题将人工智能与圣塔芭芭拉的未来并列讨论。",
+    "key_points": [
+      "标题将 Pope Leo XIV、人工智能与 Santa Barbara 的未来并列提及。",
+      "文章由 Jay Casbon 在 Noozhawk 发布（源于聚合的 Google News 列表）。"
+    ],
+    "sentiment": "neutral",
+    "impact_scope": "other",
+    "importance_score": 20,
+    "importance_rationale": "来源为本地专栏标题，文本仅有标题重复内容且缺乏具体行业或技术细节，故总体关注度较低。",
+    "risk_level": "unknown",
+    "risk_rationale": "原文仅含标题与重复的摘要，没有提供安全、合规或滥用等方面的具体信息，无法判断风险程度。",
+    "opportunity_level": "unknown",
+    "opportunity_rationale": "材料未提供关于技术能力、采用路径或商业化机会的具体证据，无法评估潜在机会大小。",
+    "evidence": [
+      "标题将“Pope Leo XIV”“Artificial Intelligence”和“Santa Barbara’s Future”并列提及，表明文章主题关联人工智能与本地未来。",
+      "标题中包含作者名 Jay Casbon 和来源 Noozhawk，支持这是本地专栏或评论性文章。"
+    ],
+    "evidence_sources": [
+      {
+        "source_item_id": "raw-google_news_ai-c4117287cb70656e",
+        "evidence_field": "title",
+        "evidence_quote": "Jay Casbon: Pope Leo XIV, Artificial Intelligence and Santa Barbara’s Future - Noozhawk",
+        "claim": "支撑对文章主题、作者与来源的事实描述（用于 summary 和实体识别）"
+      },
+      {
+        "source_item_id": "raw-google_news_ai-c4117287cb70656e",
+        "evidence_field": "summary",
+        "evidence_quote": "Jay Casbon: Pope Leo XIV, Artificial Intelligence and Santa Barbara’s Future Noozhawk",
+        "claim": "支撑文章标题中将人工智能与 Santa Barbara 的未来并列这一事实（用于 summary 和 key_points）"
+      }
+    ],
+    "content_hash": "5c5835b3d14520c982f04b4ddc89aa029809a5653534a6ed79a58eca773a011d"
+  },
+  {
+    "id": "structured-google_news_ai-5acef954bce560a0",
+    "title": "When used in the ‘wild’ conditions of the real world, large language AI stumbles - HealthExec",
+    "source": "Google News",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMlp2cUVCZk13RVRrbGQ5dnVNOFZIQlB1Wk5nUjNVb3dDMjZfNlhlcUp4YkoxaDhwR2tLZ2Z2NERFdHdlTGUwa1ladGpnT1VwWS1ueVQ1MVJvbTdqbUx6Z1dGenFNM2s1aUptUHNlOGFWeHFvRklHeHdmS3J3anRhVGdHT3FpdHZKRW9mRk9vcGFGTUZoOFVpV2ROQUxiSW5FUk82Q2ZPbXN6THJpek5OMExLRGV0X211?oc=5",
+    "published_at": "2026-05-30T21:32:23Z",
+    "source_type": "news",
+    "language": "en",
+    "topic": "AI Safety and Governance",
+    "entities": [
+      "HealthExec",
+      "large language AI"
+    ],
+    "event_type": "other",
+    "summary": "HealthExec 报道指出，在真实世界的“野外”条件下，大型语言 AI 在实际使用中会出现失误，报道正文与标题一致且未提供更多细节。",
+    "key_points": [
+      "标题与正文都指出大型语言 AI 在真实世界“野外”条件下会出现失误。",
+      "标题中标注了 HealthExec，表明文章来源信息。",
+      "输入文本非常简短，未提供具体案例或深入分析。"
+    ],
+    "sentiment": "negative",
+    "impact_scope": "technology",
+    "importance_score": 40,
+    "importance_rationale": "该条目仅为简短报道，未提供新研究、具体事故或可量化证据，影响主要限于对模型可靠性的讨论，因而关注度有限。",
+    "risk_level": "medium",
+    "risk_rationale": "标题与正文都指出模型在真实部署情境下会出错，提示可靠性与部署风险存在，但材料未给出具体严重后果或系统性故障证据。",
+    "opportunity_level": "low",
+    "opportunity_rationale": "报道强调的是失误和局限性，未呈现技术改进或商业化采纳的正面信号，因此带来的直接机会有限。",
+    "evidence": [
+      "标题与正文均写到大型语言 AI 在真实世界“野外”条件下出现失误，直接支持关于模型可靠性的判断。",
+      "标题包含 HealthExec，表明信息来源。",
+      "输入内容重复标题且文本简短，支持对信息稀薄性的判断。"
+    ],
+    "evidence_sources": [
+      {
+        "source_item_id": "raw-google_news_ai-5acef954bce560a0",
+        "evidence_field": "title",
+        "evidence_quote": "When used in the ‘wild’ conditions of the real world, large language AI stumbles - HealthExec",
+        "claim": "支持 summary 与 risk_level，表明在真实世界情境下大型语言模型出现失误并标明 HealthExec 来源。"
+      },
+      {
+        "source_item_id": "raw-google_news_ai-5acef954bce560a0",
+        "evidence_field": "content",
+        "evidence_quote": "When used in the ‘wild’ conditions of the real world, large language AI stumbles HealthExec",
+        "claim": "支持 key_points 和 evidence，表明正文与标题内容一致且文本简短，证据有限。"
+      }
+    ],
+    "content_hash": "736f0597f9912e0f207db333e3be099da33cc9ca41c5738d3afbb6c572e034fb"
+  },
+  {
+    "id": "structured-google_news_ai-455e15e78116aeda",
+    "title": "Battle to regulate artificial intelligence grows in DC - KCENTV.com",
+    "source": "Google News",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWHJNamFfZ0pnX2N5T0tNQUhSc1E2ejBQbmQxcHU4TXdGVi1fS2NObG04X3hJeENMNGR0MXAyZXUtVExwbjg3WnBJNUFDQjhlMkNMaDF5X1gwazZ3T1lHS245cUlZWmx2VS02RFhmQlREbDRmbjNCQjZFS1JCMFhmOXlKUUs2WjNtZWFncGY4czAzQXc3eGJvOEFnWVFyd1ZZWVVIMmF5UThLWGVWc3ppcEVCaHBCcEZpRG5tYXdPTVBxUjhMSkc1MUdmY05uT1ZVNUFROQ?oc=5",
+    "published_at": "2026-05-31T03:11:00Z",
+    "source_type": "news",
+    "language": "en",
+    "topic": "AI Safety and Governance",
+    "entities": [
+      "KCENTV.com",
+      "Google News"
+    ],
+    "event_type": "policy",
+    "summary": "KCENTV 报道称，在华盛顿围绕人工智能的监管争论正在加剧。",
+    "key_points": [
+      "标题与摘要指出监管争论在华盛顿加剧。",
+      "新闻来源显示为 KCENTV，通过 Google News 聚合分发。"
+    ],
+    "sentiment": "neutral",
+    "impact_scope": "policy",
+    "importance_score": 60,
+    "importance_rationale": "标题与摘要指出华盛顿关于人工智能监管的争论加剧，政策走向若有实质进展将影响行业治理，因此具备中等关注度。",
+    "risk_level": "medium",
+    "risk_rationale": "材料仅为头条式报道，未提供具体监管措施或负面事件细节，但监管升级的信号提示对企业合规与经营存在可落实的中等风险。",
+    "opportunity_level": "medium",
+    "opportunity_rationale": "监管讨论可能催生明确规则或合规服务需求，从而为法律合规、审计和合规工具等相关领域带来一定商业机会，但当前细节不足以判定高机会。",
+    "evidence": [
+      "标题与摘要均写明“Battle to regulate artificial intelligence grows in DC”，表明报道关注华盛顿的监管争论加剧。",
+      "标题中包含 KCENTV.com，且条目由 Google News 聚合发布，显示信息来源与传播渠道。"
+    ],
+    "evidence_sources": [
+      {
+        "source_item_id": "raw-google_news_ai-455e15e78116aeda",
+        "evidence_field": "title",
+        "evidence_quote": "Battle to regulate artificial intelligence grows in DC - KCENTV.com",
+        "claim": "支撑 summary 的判断：标题显示监管争论在华盛顿加剧，并标注 KCENTV.com 作为来源。"
+      },
+      {
+        "source_item_id": "raw-google_news_ai-455e15e78116aeda",
+        "evidence_field": "content",
+        "evidence_quote": "Battle to regulate artificial intelligence grows in DC KCENTV.com",
+        "claim": "支撑 importance_rationale 与 risk_rationale 的判断：内容重复指出监管争论在华盛顿加剧，表明政策讨论为核心事件。"
+      }
+    ],
+    "content_hash": "370226f827bd7c538d344e15f2db50d38043b7136e5520099b6d92c79576945e"
+  },
+  {
+    "id": "structured-google_news_ai-be1f0f9962e456e7",
+    "title": "Technological Sovereignty And Strategic Competition In The Age Of Artificial Intelligence – Analysis - Eurasia Review",
+    "source": "Google News",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZ01UVWZLbTZENzQ3Ymo4UWM3bUxwNFZ0M0lQdHZxa0hmemp6ZnBSS0pmeEZGUjBfUXNwdkxWc0pFZFpiRTB4V1I1dmkyU1Y4aTRROHhKNFVqRmViSlBwZDFpbDg2RUMySm9jbWNVMTVzMlJac3lBajJaSkhUdDB6NnZqYnBQTWJoajNob2NFaC1iZUs2d09uQkg1UjEtUWxFZUZQZmRFRWthcEtHd1hGSVBmQktxclZ0NVV4ZHRHTXhDd1BLV3MxRjRTMm03Nkx2T2YzZw?oc=5",
+    "published_at": "2026-05-31T00:26:51Z",
+    "source_type": "news",
+    "language": "en",
+    "topic": "AI Safety and Governance",
+    "entities": [
+      "AI industry"
+    ],
+    "event_type": "policy",
+    "summary": "Eurasia Review 发布了一篇分析文章，讨论人工智能时代的技术主权与战略竞争。",
+    "key_points": [
+      "标题和摘要指出文章关注“技术主权”议题。",
+      "文章讨论人工智能时代的战略竞争。",
+      "条目被标注为 Analysis，属于分析性政策/地缘政治讨论。"
+    ],
+    "sentiment": "neutral",
+    "impact_scope": "policy",
+    "importance_score": 60,
+    "importance_rationale": "文章主题涉及技术主权与战略竞争，触及国家政策和国际竞争议题，对监管与战略决策具有参考价值。",
+    "risk_level": "medium",
+    "risk_rationale": "标题显示讨论技术主权与战略竞争，暗含地缘政治和政策摩擦风险，但材料未报告具体的安全事件或即时政策变动，因此评估为中等风险。",
+    "opportunity_level": "medium",
+    "opportunity_rationale": "关于技术主权与战略竞争的分析可能影响国家和企业的战略选择与投资方向，但原文未提供明确的商业或技术采纳信号，因此机会判断为中等。",
+    "evidence": [
+      "标题和摘要明确提到技术主权与战略竞争这一议题。",
+      "条目被标注为 Analysis，表明这是分析性内容而非新闻快讯。"
+    ],
+    "evidence_sources": [
+      {
+        "source_item_id": "raw-google_news_ai-be1f0f9962e456e7",
+        "evidence_field": "title",
+        "evidence_quote": "Technological Sovereignty And Strategic Competition In The Age Of Artificial Intelligence – Analysis - Eurasia Review",
+        "claim": "支持 summary 与 topic 的判断：标题直接指明文章为 Eurasia Review 的分析，主题为技术主权与战略竞争。"
+      },
+      {
+        "source_item_id": "raw-google_news_ai-be1f0f9962e456e7",
+        "evidence_field": "summary",
+        "evidence_quote": "Technological Sovereignty And Strategic Competition In The Age Of Artificial Intelligence – Analysis Eurasia Review",
+        "claim": "支持 key_points 中关于议题和分析性质的断言：摘要重复了技术主权和战略竞争的主题并标注为 Analysis。"
+      }
+    ],
+    "content_hash": "ea49613ac0138ce960a9e496d2c28c42fc712ea1d5fc1866dcf2cb295a8a205f"
+  },
+  {
+    "id": "structured-qbitai-1801e8c7da2bace3",
+    "title": "τ0-WM：最大规模预训练的开源具身世界模型来了",
+    "source": "量子位",
+    "url": "https://www.qbitai.com/2026/05/426832.html",
+    "published_at": "2026-05-31T07:38:43Z",
+    "source_type": "news",
+    "language": "zh",
+    "topic": "Foundation Models",
+    "entities": [
+      "τ0-WM",
+      "罗剑岚",
+      "上海创智学院",
+      "智元机器人",
+      "Wan2.2-5B",
+      "UMI",
+      "EgoCentric",
+      "sii-research",
+      "finch.agibot.com"
+    ],
+    "event_type": "model_release",
+    "summary": "由罗剑岚团队发布的开源具身世界模型 τ0-WM，参数约5B，进行约3万小时预训练，其中包含约1.78万小时真机遥操作数据；模型在推理阶段采用Test-Time Computation对候选动作进行排序与修正，显著提升复杂长程操作任务的成功率。",
+    "key_points": [
+      "τ0-WM 为开源预训练具身世界模型，规模约5B参数、预训练数据约3万小时，其中真机遥操作数据占1.78万小时。",
+      "模型在推理时保留显式的未来预测并采用Test-Time Computation，通过RCS评分与LAR模拟器修正来筛选并重生成动作。",
+      "在若干未见过的长程精细操作任务上，叠加RCS与LAR后成功率从裸策略43%提升到60%，超过多种基线方法。"
+    ],
+    "sentiment": "positive",
+    "impact_scope": "technology",
+    "importance_score": 82,
+    "importance_rationale": "τ0-WM 在开源具身智能领域以5B参数和约3万小时预训练数据（其中1.78万小时为真机遥操作）刷新规模记录，并把真机数据作为预训练主体，这可能改变具身智能的数据与预训练范式，因而具有较高关注度。",
+    "risk_level": "low",
+    "risk_rationale": "报道未提及安全、合规或滥用事件，主要讨论的是数据规模、训练方法与性能提升；尽管文中提到 sim2real 间隙与数据采集成本等不确定性，但没有显示立即的高风险信号。",
+    "opportunity_level": "high",
+    "opportunity_rationale": "将大规模真机遥操作数据并入预训练且在推理阶段保留显式未来想象（Test-Time Computation），在复杂操作任务上显著提升成功率，表明对具身智能部署、开发者研究与产业化路径存在明确的机会。",
+    "evidence": [
+      "报道指出 τ0-WM 参数量达到 5B，预训练数据规模约3万小时，且真机遥操作数据占到1.78万小时，成为预训练主力。",
+      "τ0-WM 在推理阶段结合了Test-Time Computation，通过多组候选动作排序、RCS评分与LAR模拟器修正来选择最终动作。",
+      "在未见过的长程精细操作任务上，叠加RCS和LAR后成功率从裸策略43%提升到60%，并优于其他测试时引导方法。"
+    ],
+    "evidence_sources": [
+      {
+        "source_item_id": "raw-qbitai-1801e8c7da2bace3",
+        "evidence_field": "content",
+        "evidence_quote": "刚刚，上海创智学院副教授、智元机器人首席科学家 罗剑岚 带队，发布 全球最大规模的开源预训练具身世界模型 —— 整个τ0-WM参数量达到 5B ，预训练数据规模高达约3万小时。其中， 真机遥操作数据第一次成了绝对主力 ，占到了1.78万小时。",
+        "claim": "支撑 summary 与 importance_rationale 中关于模型参数规模和真机数据在预训练中占主导地位的陈述。"
+      },
+      {
+        "source_item_id": "raw-qbitai-1801e8c7da2bace3",
+        "evidence_field": "content",
+        "evidence_quote": "τ0-WM不仅能像其他世界模型那样预测未来画面、生成动作。 更重要的是，它还结合了测试时计算（Test-Time Computation），让机器人在执行前对多个候选动作进行排序，选出最优方案，质量不够就调用模拟器修正后再执行。",
+        "claim": "支撑 opportunity_rationale 与 key_points 中关于Test-Time Computation在推理阶段用于候选动作排序与修正，从而提升决策质量的判断。"
+      },
+      {
+        "source_item_id": "raw-qbitai-1801e8c7da2bace3",
+        "evidence_field": "content",
+        "evidence_quote": "结果表明，不加测试时计算时，裸策略平均成功率只有43%。加入第一层RCS动作筛选后，提升到50%。 再叠加LAR模拟器修正之后，最终来到60%。提升最明显的是更难的Pen→Box任务，成功率直接从30%拉到了50%。",
+        "claim": "支撑 evidence 与 importance_rationale 中关于性能提升数据的陈述，说明方法带来的实际效果并为高关注度提供量化依据。"
+      }
+    ],
+    "content_hash": "e19b9891fafa375228135423347fc2daa46f4e2185a742db4370bbcf11e49717"
+  },
+  {
+    "id": "structured-qbitai-9832ade31189d82f",
+    "title": "AI原生时代下，让世界适应Agent，而非教AI做人 | 港大黄超@AIGC2026",
+    "source": "量子位",
+    "url": "https://www.qbitai.com/2026/05/426819.html",
+    "published_at": "2026-05-31T03:54:27Z",
+    "source_type": "news",
+    "language": "zh",
+    "topic": "AI Agents",
+    "entities": [
+      "黄超",
+      "港大",
+      "nanobot",
+      "OpenClaw",
+      "DeepSeek",
+      "OpenRouter",
+      "H100",
+      "CLI-Anything",
+      "CLI Hub"
+    ],
+    "event_type": "research",
+    "summary": "港大助理教授黄超在AIGC2026上提出让数字世界适应Agent的理念，介绍了团队开源的轻量级通用Agent nanobot 与 CLI-Anything 的设计思路，并展示了用Agent集群协调H100显卡进行分布式训练的实验结果与可扩展性挑战。",
+    "key_points": [
+      "团队以最轻量化方式开源通用Agent nanobot，获得超过20万次下载与社区推荐。",
+      "提出 CLI-Anything，将专业软件封装为命令行接口，使软件原生支持Agent语言，主张CLI可能是Agent-native的交互范式。",
+      "实验显示用8个Agent协调8张H100显卡可提升效率，但扩展规模后出现边际收益递减，提示Agent协作的scaling law挑战。"
+    ],
+    "sentiment": "positive",
+    "impact_scope": "technology",
+    "importance_score": 72,
+    "importance_rationale": "该演讲结合开源项目 nanobot、CLI-Anything 与实际分布式训练实验，提供了对Agent基础设施和交互范式的具体实现与验证，可能影响开发者工具与Agent部署路径，因此具有中上级别关注度。",
+    "risk_level": "medium",
+    "risk_rationale": "材料指出Agent在长程任务和大规模协作时存在鲁棒性、验证与协调开销问题，并强调token成本与企业级交付要求，表明实现生产级Agent仍有可观的不确定性和执行风险。",
+    "opportunity_level": "high",
+    "opportunity_rationale": "开源轻量Agent的高关注度、CLI-Anything 提出的Agent-native交互路径以及分布式训练实验的可行性共同表明在开发者生态、企业部署和科研加速方面存在明显的采用与商业化机会。",
+    "evidence": [
+      "文章说明团队以最轻量化方式开源了通用Agent nanobot，下载量超过20万次并获得推荐。",
+      "文章提出将专业软件重新包装为命令行接口（CLI-Anything），主张CLI可能是Agent-native的交互方式。",
+      "文章描述了用8个Agent协调8张H100显卡进行分布式模型训练的实验，并指出扩展规模出现边际收益递减的问题。"
+    ],
+    "evidence_sources": [
+      {
+        "source_item_id": "raw-qbitai-9832ade31189d82f",
+        "evidence_field": "title",
+        "evidence_quote": "AI原生时代下，让世界适应Agent，而非教AI做人 | 港大黄超@AIGC2026",
+        "claim": "支撑摘要中关于黄超在AIGC2026提出让世界适应Agent而非教AI的陈述"
+      },
+      {
+        "source_item_id": "raw-qbitai-9832ade31189d82f",
+        "evidence_field": "summary",
+        "evidence_quote": "CLI更像是Agent的母语",
+        "claim": "支撑关于CLI作为Agent-native交互范式的机会判断"
+      },
+      {
+        "source_item_id": "raw-qbitai-9832ade31189d82f",
+        "evidence_field": "content",
+        "evidence_quote": "让8个Agent协调8张H100显卡进行分布式模型训练 。",
+        "claim": "支撑实验验证与重要性评估，显示Agent集群在分布式训练中的可行性与扩展性挑战"
+      }
+    ],
+    "content_hash": "4e82272b4de54ae2e2ea9cda0da94eaf74de1dd517a864e32107349997d3ae5c"
+  },
+  {
+    "id": "structured-qbitai-253e84889f2c1cca",
+    "title": "从Token无上限到全员Agent：MiniMax的AI Native组织进化实践",
+    "source": "量子位",
+    "url": "https://www.qbitai.com/2026/05/426793.html",
+    "published_at": "2026-05-31T01:29:42Z",
+    "source_type": "news",
+    "language": "zh",
+    "topic": "AI Agents",
+    "entities": [
+      "MiniMax",
+      "胡维琦",
+      "MaxClaw",
+      "MaxHermes",
+      "M2",
+      "海螺"
+    ],
+    "event_type": "product_launch",
+    "summary": "MiniMax 在2026中国AIGC产业峰会上由胡维琦分享公司将AI作为生产力和组织变革工具的实践，包括为全员提供不限Token、推进Agent项目，并介绍其多模态模型与一系列2026年发布的产品。文章指出公司已于2026年1月在港股上市并在内部通过dogfooding提升效率。",
+    "key_points": [
+      "公司倡导全员使用Agent与不限Token的内部实践以推动组织扁平化和效率提升。",
+      "MiniMax 强调其多模态模型与产品线，并在2026年发布了MaxClaw Agent、MaxClaw和MaxHermes等产品。",
+      "文章认为这一代AI已从“玩具”转为企业生产力工具，未来2–3年将与各行业深度融合。"
+    ],
+    "sentiment": "positive",
+    "impact_scope": "industry",
+    "importance_score": 72,
+    "importance_rationale": "该演讲在观众规模大、传播广的行业峰会上公开发布，且MiniMax已在2026年1月港股上市并连续推出多款面向企业的产品，显示对产业部署和企业采用有明确影响。",
+    "risk_level": "low",
+    "risk_rationale": "材料主要为组织实践与产品分享，未披露安全、合规或滥用事件，虽提及Token消耗与内部接受度差异，但未显示已发生的重大风险。",
+    "opportunity_level": "high",
+    "opportunity_rationale": "公司报告通过模型与Agent实践能明显提升研发与生产效率（文中提到30%～50%代码由模型生成），并且推出多模态与Agent产品，表明企业级Agent和多模态商业化机会较强。",
+    "evidence": [
+      "文章标题与内容强调从“全员Agent”和不限Token的内部实践作为组织进化策略。",
+      "文中指出MiniMax是一家专注文本、视频、语音、音乐多模态模型的公司，并于2026年1月在港股上市。",
+      "文中列举了公司在2026年发布的多款产品（MaxClaw Agent、MaxClaw、MaxHermes）并提到通过模型提升研发效率。"
+    ],
+    "evidence_sources": [
+      {
+        "source_item_id": "raw-qbitai-253e84889f2c1cca",
+        "evidence_field": "title",
+        "evidence_quote": "从Token无上限到全员Agent：MiniMax的AI Native组织进化实践",
+        "claim": "支持对事件主题“全员Agent 与不限Token 内部实践”的概括（用于 summary 与 key_points）。"
+      },
+      {
+        "source_item_id": "raw-qbitai-253e84889f2c1cca",
+        "evidence_field": "content",
+        "evidence_quote": "MiniMax 是一家专注文本、视频、语音、音乐多模态模型的公司，于2026年1月在港股上市。",
+        "claim": "支持公司身份、多模态模型能力及在港股上市的陈述，作为重要性判断依据。"
+      },
+      {
+        "source_item_id": "raw-qbitai-253e84889f2c1cca",
+        "evidence_field": "content",
+        "evidence_quote": "我们在2026年1月份发布了MaxClaw Agent产品，2月份发布了MaxClaw产品，4月份又发布了MaxHermes这个产品。",
+        "claim": "支持关于公司在2026年连续发布Agent与产品的机会判断（用于 opportunity_rationale 与 key_points）。"
+      }
+    ],
+    "content_hash": "dfbf3bc6596808b9bbfb58c0eb8f8780a8d7ae9d844d282cb0f05e9d06e1b985"
+  },
+  {
+    "id": "structured-ithome_ai-f03a61471a7f41e2",
+    "title": "金河田预告碳化硅 (SiC) 方案 Vortexis Platinum 高功率电源",
+    "source": "IT之家",
+    "url": "https://www.ithome.com/0/957/784.htm",
+    "published_at": "2026-05-31T06:46:20Z",
+    "source_type": "news",
+    "language": "zh",
+    "topic": "AI Infrastructure",
+    "entities": [
+      "金河田",
+      "Vortexis Platinum",
+      "Designer 14",
+      "碳化硅 (SiC)"
+    ],
+    "event_type": "product_launch",
+    "summary": "金河田宣布将在 COMPUTEX 2026 展出采用碳化硅 (SiC) 器件的 Vortexis Platinum 高功率电源，面向 AI 高算力平台，并将该系列扩展到一般 PC 平台同时提供 ATX 与 SFX 规格；同时推出面向 AI/HPC 服务器与数据中心的 80 PLUS 白金/钛金认证 CRPS 服务器电源和 Designer 14 机箱。",
+    "key_points": [
+      "金河田将在 COMPUTEX 2026 展出导入高效碳化硅 (SiC) 器件的 Vortexis Platinum 高功率电源，面向 AI 高算力平台。",
+      "Vortexis Platinum 系列将扩展至一般 PC 平台并提供 ATX 和 SFX 外形规格以适配不同装机场景。",
+      "获得 80 PLUS 白金/钛金认证的 CRPS 服务器电源瞄准 AI/HPC 服务器与数据中心，另有面向 AI 工作流的 Designer 14 机箱。"
+    ],
+    "sentiment": "positive",
+    "impact_scope": "technology",
+    "importance_score": 58,
+    "importance_rationale": "该发布涉及导入碳化硅器件并瞄准 AI/HPC 服务器与数据中心，属于面向 AI 基础设施的硬件升级，技术影响可跟踪但来自单一厂商且非行业头部事件。",
+    "risk_level": "low",
+    "risk_rationale": "报道为产品预告与规格信息，未披露安全、合规或已发生的故障与风险证据，因此不存在明显的高风险信号。",
+    "opportunity_level": "medium",
+    "opportunity_rationale": "碳化硅器件和面向 AI/HPC 的服务器电源可提高能效并支持高算力平台部署，且扩展至 PC 平台显示一定的商业化与市场扩展机会，但影响范围主要限于电源与机箱硬件领域。",
+    "evidence": [
+      "报道指出金河田将在 COMPUTEX 2026 展出采用碳化硅 (SiC) 器件的 Vortexis Platinum 高功率电源，面向 AI 高算力平台。",
+      "报道称 Vortexis Platinum 系列将扩展至一般 PC 平台并提供 ATX 与 SFX 外形规格，且有 80 PLUS 白金/钛金认证的 CRPS 服务器电源瞄准 AI/HPC 服务器与数据中心。"
+    ],
+    "evidence_sources": [
+      {
+        "source_item_id": "raw-ithome_ai-f03a61471a7f41e2",
+        "evidence_field": "title",
+        "evidence_quote": "金河田预告碳化硅 (SiC) 方案 Vortexis Platinum 高功率电源",
+        "claim": "summary"
+      },
+      {
+        "source_item_id": "raw-ithome_ai-f03a61471a7f41e2",
+        "evidence_field": "summary",
+        "evidence_quote": "IT之家 5 月 31 日消息，金河田 (Golden Field) 昨日宣布，将在 COMPUTEX 2026（台北国际电脑展）上带来多款电源新品，其中包括 导入高效碳化硅 (SiC) 功率器件 、面向 AI 高算力平台的 Vortexis Platinum 高功率 电源。",
+        "claim": "opportunity_level"
+      }
+    ],
+    "content_hash": "d2249e0dc59fbde4b727f02393748dfdbbe73f026a0601c189ef52a4574853df"
+  },
+  {
+    "id": "structured-ithome_ai-d8377695dfb5016e",
+    "title": "Steam 页面确认：《使命召唤：现代战争 4》存在生成式 AI 制作的内容",
+    "source": "IT之家",
+    "url": "https://www.ithome.com/0/957/752.htm",
+    "published_at": "2026-05-31T05:16:00Z",
+    "source_type": "news",
+    "language": "zh",
+    "topic": "AI Applications",
+    "entities": [
+      "Infinity Ward",
+      "动视",
+      "Steam",
+      "使命召唤：现代战争 4",
+      "黑色行动 7"
+    ],
+    "event_type": "product_launch",
+    "summary": "Steam 商店页面确认《使命召唤：现代战争 4》将使用生成式 AI 制作部分游戏内素材，开发方为 Infinity Ward 与动视，但未披露更多细节；此前系列作《黑色行动 7》因大量使用 AI 美术遭到玩家批评，导致社区对此次做法存在担忧。",
+    "key_points": [
+      "Steam 商店页面标注本作将再度使用生成式 AI 制作内容。",
+      "声明称 Infinity Ward 与动视将借助生成式 AI 工具制作部分游戏内素材，但未说明细节。",
+      "前作《黑色行动 7》因大量使用 AI 生成美术素材遭到玩家批评，玩家对本次做法存在顾虑。"
+    ],
+    "sentiment": "mixed",
+    "impact_scope": "user",
+    "importance_score": 60,
+    "importance_rationale": "作为大型游戏系列的新作，Steam 页面直接披露使用生成式 AI 的事实对玩家体验和舆论有直接影响，且结合以往争议该事项对发行口碑具有可观关注度。",
+    "risk_level": "medium",
+    "risk_rationale": "材料显示将使用生成式 AI 且未披露细节，结合前作因大量 AI 美术遭到玩家抵制，存在较明显的声誉和用户满意度风险。",
+    "opportunity_level": "medium",
+    "opportunity_rationale": "文章提到几乎所有主流游戏工作室都在使用生成式 AI，表明此类工具在生产效率和跨平台内容制作上有潜在优势，但质量和玩家接受度仍有不确定性。",
+    "evidence": [
+      "Steam 商店页面确认本作将再度使用生成式 AI 制作部分游戏内素材，来源于官方商店声明。",
+      "声明中提到 Infinity Ward 与动视将借助生成式 AI 工具制作部分游戏内素材，但并未披露更多细节，这表明信息不透明。",
+      "前作《黑色行动 7》曾因大量使用 AI 生成美术素材遭到玩家批评，说明玩家群体对 AI 生成内容存在明显关注和负面反馈。"
+    ],
+    "evidence_sources": [
+      {
+        "source_item_id": "raw-ithome_ai-d8377695dfb5016e",
+        "evidence_field": "title",
+        "evidence_quote": "Steam 页面确认：《使命召唤：现代战争 4》存在生成式 AI 制作的内容",
+        "claim": "支撑 summary 中关于 Steam 页面确认使用生成式 AI 的事实描述"
+      },
+      {
+        "source_item_id": "raw-ithome_ai-d8377695dfb5016e",
+        "evidence_field": "content",
+        "evidence_quote": "声明中提到，Infinity Ward 与动视将借助生成式 AI 工具制作部分游戏内素材，但除此之外并未披露更多细节。",
+        "claim": "支撑 risk_rationale 和 summary 中关于开发方使用 AI 但未披露细节的不确定性判断"
+      },
+      {
+        "source_item_id": "raw-ithome_ai-d8377695dfb5016e",
+        "evidence_field": "content",
+        "evidence_quote": "前作《黑色行动 7》曾因大量使用 AI 生成美术素材饱受诟病，不少玩家直言游戏内的相关资源是“AI 劣质作品”。",
+        "claim": "支撑 risk_rationale 中关于过去玩家抵制与质量争议的依据"
+      }
+    ],
+    "content_hash": "7f8b50ccfad2eb5bd78aa75c39aacac0ac4ab41db391194425cc7602febc1323"
+  },
+  {
+    "id": "structured-ithome_ai-197f667820e28ca5",
+    "title": "AI 编程工具普及背后：效率提升的假象与代码维护的隐患",
+    "source": "IT之家",
+    "url": "https://www.ithome.com/0/957/744.htm",
+    "published_at": "2026-05-31T03:37:34Z",
+    "source_type": "news",
+    "language": "zh",
+    "topic": "Developer Tools and Open Source",
+    "entities": [
+      "METR",
+      "Entelligence AI",
+      "CodeRabbit",
+      "Cognition",
+      "Devin",
+      "新加坡管理大学",
+      "詹姆斯・肖尔",
+      "亚马逊",
+      "优步",
+      "Scott Wu",
+      "安德鲁・麦克唐纳"
+    ],
+    "event_type": "research",
+    "summary": "IT之家报道，多项研究与行业案例表明尽管开发者高度依赖 AI 编程工具，但 AI 生成代码未必提高整体效率，反而可能增加排查与长期维护成本。",
+    "key_points": [
+      "研究人员发现开发者已高度依赖 AI 工具，甚至无法接受脱离 AI 的实验对照。",
+      "多项独立与商业数据指出 AI 生成代码的错误率更高并带来额外修复开销（如 CodeRabbit 的 1.7 倍结论）。",
+      "厂商建议用更多工具链自动修复与人工质检结合，但研究者仍强调人类应主导架构与安全设计。"
+    ],
+    "sentiment": "negative",
+    "impact_scope": "technology",
+    "importance_score": 72,
+    "importance_rationale": "AI 编程工具在开发者中已广泛部署，涉及开发流程和代码质量的基础性影响，且有多项研究与行业报道共同指向可观的产业后果，因此具备较高关注度。",
+    "risk_level": "medium",
+    "risk_rationale": "来源提供了多项风险信号——AI 生成代码错误率较高、词元滥用导致成本激增以及预算快速耗尽，但未出现重大安全事件或监管处罚，因此评为中等风险。",
+    "opportunity_level": "medium",
+    "opportunity_rationale": "尽管存在维护和成本问题，厂商仍在推广修复与集成工具并提出流程性解决方案，表明对改进开发效率和商业化存在可实现但有条件的机会。",
+    "evidence": [
+      "报道指出开发者已高度依赖 AI 工具，研究团队难以开展脱离 AI 的对照实验以评估效率提升。",
+      "文章直接引用了关于 AI 生成代码未能减少维护工作、反而增加维护压力的结论。",
+      "文章引用 CodeRabbit 的分析，指出 AI 编写代码出现问题的概率高于人工代码（1.7 倍），并提到企业词元滥用导致成本激增的行业案例。"
+    ],
+    "evidence_sources": [
+      {
+        "source_item_id": "raw-ithome_ai-197f667820e28ca5",
+        "evidence_field": "summary",
+        "evidence_quote": "IT之家 5 月 31 日消息，研究人员发现，2026 年，AI 编程工具已然成为开发者离不开的帮手。",
+        "claim": "支持关于开发者对 AI 编程工具高度依赖并构成报道主题的 summary。"
+      },
+      {
+        "source_item_id": "raw-ithome_ai-197f667820e28ca5",
+        "evidence_field": "content",
+        "evidence_quote": "AI 生成的代码也没能减少后续的代码维护工作，反而可能让维护压力变得更大。",
+        "claim": "支持对维护成本上升和风险判断（risk_level 和 summary 中关于维护隐患的表述）。"
+      },
+      {
+        "source_item_id": "raw-ithome_ai-197f667820e28ca5",
+        "evidence_field": "content",
+        "evidence_quote": "CodeRabbit 分析开源代码合并请求后发现， AI 编写的代码出现问题的概率，是人工代码的 1.7 倍。",
+        "claim": "支持有关错误率上升和重要性评估的判断，作为衡量风险和行业影响的重要量化证据。"
+      }
+    ],
+    "content_hash": "1065f9ced503e2b2d6e3023720ea4532d7a402634218299dc50e06a92f8500cb"
+  }
+]

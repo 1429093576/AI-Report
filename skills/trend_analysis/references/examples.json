@@ -1,0 +1,91 @@
+{
+  "structured_items": [
+    {
+      "id": "structured-001",
+      "title": "OpenAI expands Codex availability beyond the ChatGPT sidebar",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/work-with-codex-from-anywhere/",
+      "published_at": "2026-05-14T09:00:00Z",
+      "source_type": "blog",
+      "language": "en",
+      "topic": "AI Agents",
+      "entities": ["OpenAI"],
+      "event_type": "market",
+      "summary": "OpenAI described new ways for developers to work with Codex from more places in their workflow.",
+      "key_points": [
+        "OpenAI described new ways for developers to work with Codex from more places in their workflow."
+      ],
+      "sentiment": "positive",
+      "impact_scope": "technology",
+      "importance_score": 74,
+      "importance_rationale": "Codex 扩展到更多开发工作流表面，提升开发者智能体采用关注度。",
+      "risk_level": "low",
+      "risk_rationale": "材料未显示安全、合规或交付方面的突出风险。",
+      "opportunity_level": "high",
+      "opportunity_rationale": "开发者工作流扩展强化了编码智能体的采用机会。",
+      "evidence": [
+        "OpenAI said Codex can support software development tasks across more surfaces"
+      ],
+      "content_hash": "example-agent-1"
+    },
+    {
+      "id": "structured-002",
+      "title": "OpenAI and Dell Technologies partner to bring Codex to enterprise environments",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/dell-codex-enterprise-partnership/",
+      "published_at": "2026-05-18T09:00:00Z",
+      "source_type": "blog",
+      "language": "en",
+      "topic": "AI Agents",
+      "entities": ["OpenAI"],
+      "event_type": "partnership",
+      "summary": "OpenAI and Dell announced a partnership aimed at bringing Codex into hybrid and on-premises enterprise environments.",
+      "key_points": [
+        "The partnership signals enterprise demand for coding agents."
+      ],
+      "sentiment": "positive",
+      "impact_scope": "industry",
+      "importance_score": 82,
+      "importance_rationale": "OpenAI 与 Dell 合作面向企业环境，产业部署信号明确。",
+      "risk_level": "low",
+      "risk_rationale": "材料提到安全部署需求，但未显示已发生的严重风险事件。",
+      "opportunity_level": "high",
+      "opportunity_rationale": "企业环境部署信号强化了编码智能体商业化机会。",
+      "evidence": [
+        "The partnership signals enterprise demand for coding agents"
+      ],
+      "content_hash": "example-agent-2"
+    }
+  ],
+  "trend_insight": {
+    "title": "AI Agents adoption signal is broadening",
+    "scope": "technology",
+    "summary": "AI Agents appears in multiple current items, with developer workflow and enterprise deployment signals.",
+    "evidence_item_ids": ["structured-001", "structured-002"],
+    "trend_state": "heating_up",
+    "historical_context_used": false
+  },
+  "memory_topic_example": {
+    "topics": {
+      "ai agents": [
+        {
+          "id": "historical-001",
+          "title": "Previous AI agent workflow update",
+          "source": "Example Source",
+          "url": "https://example.com/history",
+          "published_at": "2026-05-12T09:00:00+00:00",
+          "topic": "AI Agents",
+          "summary": "Previous context about agent workflows.",
+          "importance_score": 70,
+          "importance_rationale": "历史事件显示智能体工作流已有持续关注价值。",
+          "risk_level": "low",
+          "risk_rationale": "历史材料未显示突出风险。",
+          "opportunity_level": "high",
+          "opportunity_rationale": "历史材料显示开发者工作流采用机会较强。",
+          "content_hash": "historical-agent-1",
+          "evidence": ["Previous context about agent workflows."]
+        }
+      ]
+    }
+  }
+}
