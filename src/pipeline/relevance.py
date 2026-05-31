@@ -938,13 +938,14 @@ def _parse_single_relevance(
         )
 
     try:
-        return RelevanceAssessment.model_validate(parsed)
+        assessment = RelevanceAssessment.model_validate(parsed)
     except Exception as exc:
         raise LLMBusinessError(
             "schema_error",
             f"relevance item {item.id} failed schema validation: {exc}",
             details={"item_id": item.id},
         ) from exc
+    return assessment.model_copy(update={"decision_source": "llm"})
 
 
 def _combined_llm_call(calls: list[dict[str, object]]) -> dict[str, object]:

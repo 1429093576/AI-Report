@@ -1072,6 +1072,37 @@ class PipelineStepTests(unittest.TestCase):
             ):
                 relevance.run(context)
 
+    def test_relevance_llm_forces_decision_source_to_llm(self) -> None:
+        context = PipelineContext(run_id="run-test", run_date=date(2026, 5, 20))
+        context.set("raw_items", [RawNewsItem(**self._raw_payload("raw-1"))])
+
+        response = {
+            "item_id": "raw-1",
+            "title": "OpenAI launches developer agents",
+            "url": "https://example.com/a",
+            "published_at": "2026-05-20T10:00:00+00:00",
+            "content_hash": "hash-1",
+            "is_ai_related": True,
+            "relevance_score": 90,
+            "relevance_reason": "The item is centrally about AI agent tooling.",
+            "relevance_evidence": ["OpenAI launches developer agents"],
+            "decision_source": "rule_based",
+        }
+
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            context.paths["cleaned"] = Path(tmp_dir) / "cleaned.json"
+            context.paths["relevant"] = Path(tmp_dir) / "relevant.json"
+            context.paths["relevance_report"] = Path(tmp_dir) / "relevance_report.json"
+            cleaned = clean.run(context)
+            context.set("cleaned_items", cleaned)
+            context.set("llm_adapter", MockLLMAdapter([json.dumps(response)]))
+
+            relevance.run(context)
+            report = json.loads(context.paths["relevance_report"].read_text(encoding="utf-8"))
+
+        self.assertEqual(report[0]["decision_source"], "llm")
+        self.assertEqual(context.get("relevance_assessments")[0].decision_source, "llm")
+
     def test_relevance_falls_back_to_rules_on_invalid_llm_json(self) -> None:
         context = PipelineContext(run_id="run-test", run_date=date(2026, 5, 20))
         tracer = InMemoryTracer()
